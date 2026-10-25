@@ -3,6 +3,7 @@ import { benchmarksCollector } from "./collectors/benchmarks";
 import { modelsCollector } from "./collectors/models";
 import { newsCollector } from "./collectors/news";
 import { papersCollector } from "./collectors/papers";
+import { researchCollector } from "./collectors/research";
 import { trendingCollector } from "./collectors/trending";
 
 export const COLLECTORS = {
@@ -12,6 +13,7 @@ export const COLLECTORS = {
   trending: trendingCollector,
   benchmarks: benchmarksCollector,
   apiStatus: apiStatusCollector,
+  research: researchCollector,
 };
 
 // Collections start a few seconds apart, so a restart does not fire every source at once.

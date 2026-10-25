@@ -7,6 +7,7 @@ import type {
   NewsResponse,
   Overview,
   PapersResponse,
+  ResearchResponse,
   TrendingResponse,
 } from "@shared/types";
 
@@ -60,4 +61,6 @@ export const useTrending = () => useApi<TrendingResponse>("/api/trending");
 export const useBenchmarks = () =>
   useApi<BenchmarksResponse>("/api/benchmarks");
 export const useApiStatus = () => useApi<ApiStatusResponse>("/api/api-status");
+export const useResearch = () =>
+  useApi<ResearchResponse>("/api/research", 30 * 60_000);
 export const useGuide = () => useApi<Guide>("/api/guide", 60 * 60_000);

@@ -3,7 +3,7 @@ import { Empty, PageHeader } from "@/components/common";
 import { published } from "@/lib/fmt";
 import { removeSaved, useSaved } from "@/lib/saved";
 
-const KIND = { noticia: "Notícia", artigo: "Artigo", modelo: "Modelo" } as const;
+const KIND = { noticia: "Notícia", artigo: "Artigo", modelo: "Modelo", pesquisa: "Pesquisa" } as const;
 
 export default function Saved() {
   const { saved } = useSaved();

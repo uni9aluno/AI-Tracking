@@ -1,0 +1,221 @@
+[
+ {
+  "paper": {
+   "id": "2509.17765",
+   "title": "Qwen3-Omni Technical Report",
+   "summary": "We present Qwen3-Omni, a single multimodal model that, for the first time,\nmaintains state-of-the-art performance across text, image, audio, and video\nwithout any degradation relative to single-modal counterparts. Qwen3-Omni\nmatches the performance of same-sized single-modal models within the Qwen\ns",
+   "ai_summary": "Qwen3-Omni, a multimodal model, achieves state-of-the-art performance across text, image, audio, and video, using a Thinker-Talker MoE architecture and a lightweight causal ConvNet for efficient streaming synthesis.",
+   "upvotes": 155,
+   "publishedAt": "2025-09-22T13:26:24.000Z",
+   "authors": [
+    {
+     "name": "Jin Xu"
+    },
+    {
+     "name": "Zhifang Guo"
+    },
+    {
+     "name": "Hangrui Hu"
+    }
+   ],
+   "organization": {
+    "name": "Qwen",
+    "fullname": "Qwen"
+   }
+  },
+  "publishedAt": "2025-09-22T09:26:24.000Z",
+  "title": "Qwen3-Omni Technical Report",
+  "organization": {
+   "name": "Qwen"
+  }
+ },
+ {
+  "paper": {
+   "id": "2509.25084",
+   "title": "Scaling Generalist Data-Analytic Agents",
+   "summary": "Data-analytic agents are emerging as a key catalyst for automated scientific\ndiscovery and for the vision of Innovating AI. Current approaches, however,\nrely heavily on prompt engineering over proprietary models, while open-source\nmodels struggle to face diverse-format, large-scale data files and\nlo",
+   "ai_summary": "DataMind addresses challenges in building open-source data-analytic agents through task taxonomy, trajectory sampling, dynamic training objectives, and stable multi-turn rollouts, achieving state-of-the-art performance on data analysis benchmarks.",
+   "upvotes": 22,
+   "publishedAt": "2025-09-29T17:23:08.000Z",
+   "authors": [
+    {
+     "name": "Shuofei Qiao"
+    },
+    {
+     "name": "Yanqiu Zhao"
+    },
+    {
+     "name": "Zhisong Qiu"
+    }
+   ],
+   "organization": {
+    "name": "Qwen",
+    "fullname": "Qwen"
+   }
+  },
+  "publishedAt": "2025-09-29T13:23:08.000Z",
+  "title": "Scaling Generalist Data-Analytic Agents",
+  "organization": {
+   "name": "Qwen"
+  }
+ },
+ {
+  "paper": {
+   "id": "2606.21906",
+   "title": "Deeper is Not Always Better: Mitigating the Alignment Tax via Confident Layer Decoding",
+   "summary": "Autoregressive generation in large language models (LLMs) conventionally decodes from the final layer, assuming that deeper representations yield more reliable next-token predictions. We revisit this assumption by revealing a recurring Guess-Refine-Perturb dynamic: early layers form coarse guesses, ",
+   "ai_summary": "Autoregressive generation in large language models traditionally uses the final layer for token prediction, but a new decoding strategy dynamically selects more reliable intermediate layers based on entropy-guided search, improving reasoning performance with minimal computational overhead.",
+   "upvotes": 27,
+   "publishedAt": "2026-06-20T00:00:00.000Z",
+   "authors": [
+    {
+     "name": "Xuanming Zhang"
+    },
+    {
+     "name": "Sining Zhoubian"
+    },
+    {
+     "name": "Yuxuan Chen"
+    }
+   ],
+   "organization": {
+    "name": "Qwen",
+    "fullname": "Qwen"
+   }
+  },
+  "publishedAt": "2026-06-19T20:00:00.000Z",
+  "title": "Deeper is Not Always Better: Mitigating the Alignment Tax via Confident Layer Decoding",
+  "organization": {
+   "name": "Qwen"
+  }
+ },
+ {
+  "paper": {
+   "id": "2608.30320",
+   "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+   "summary": "We describe the architecture and ablations of Qwen3.8-Flash-Next, a sparse mixture-of-experts model with 125B parameters, 6B activated per token, and additional 51B parameters of n-gram embedding tables held off the accelerator. On fourteen pre-training benchmarks the model leads the 397B-A17B prede",
+   "ai_summary": "Qwen3.8-Flash-Next is a sparse mixture-of-experts architecture combining hybrid gated delta-net and sparse attention layers, gated residual branches, and off-accelerator n-gram embeddings to improve efficiency, capability, and training stability.",
+   "upvotes": 61,
+   "publishedAt": "2026-08-31T00:00:00.000Z",
+   "authors": [
+    {
+     "name": "Zihan Qiu"
+    },
+    {
+     "name": "Zekun Wang"
+    },
+    {
+     "name": "Xiao Li"
+    }
+   ],
+   "organization": {
+    "name": "Qwen",
+    "fullname": "Qwen"
+   }
+  },
+  "publishedAt": "2026-08-30T20:00:00.000Z",
+  "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+  "organization": {
+   "name": "Qwen"
+  }
+ },
+ {
+  "paper": {
+   "id": "2609.22000",
+   "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+   "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface",
+   "ai_summary": "RecreationWorld and RecreationBench evaluate hybrid computer-use agents that interleave graphical exploration with software development to recreate running applications across platforms, revealing limited success on interactive and computed tasks.",
+   "upvotes": 81,
+   "publishedAt": "2026-09-18T00:00:00.000Z",
+   "authors": [
+    {
+     "name": "Shuai Bai"
+    },
+    {
+     "name": "Jiayong Deng"
+    },
+    {
+     "name": "Yikun Fu"
+    }
+   ],
+   "organization": {
+    "name": "Qwen",
+    "fullname": "Qwen"
+   }
+  },
+  "publishedAt": "2026-09-17T20:00:00.000Z",
+  "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+  "organization": {
+   "name": "Qwen"
+  }
+ },
+ {
+  "paper": {
+   "id": "2308.12966",
+   "title": "Qwen-VL: A Frontier Large Vision-Language Model with Versatile Abilities",
+   "summary": "We introduce the Qwen-VL series, a set of large-scale vision-language models\ndesigned to perceive and understand both text and images. Comprising Qwen-VL\nand Qwen-VL-Chat, these models exhibit remarkable performance in tasks like\nimage captioning, question answering, visual localization, and flexibl",
+   "ai_summary": "Qwen-VL series of large-scale vision-language models excel in image captioning, question answering, and visual localization, outperforming existing models.",
+   "upvotes": 13,
+   "publishedAt": "2023-08-24T17:59:17.000Z",
+   "authors": [
+    {
+     "name": "Jinze Bai"
+    },
+    {
+     "name": "Shuai Bai"
+    },
+    {
+     "name": "Shusheng Yang"
+    }
+   ]
+  },
+  "publishedAt": "2023-08-24T13:59:17.000Z",
+  "title": "Qwen-VL: A Frontier Large Vision-Language Model with Versatile Abilities"
+ },
+ {
+  "paper": {
+   "id": "2309.16609",
+   "title": "Qwen Technical Report",
+   "summary": "Large language models (LLMs) have revolutionized the field of artificial\nintelligence, enabling natural language processing tasks that were previously\nthought to be exclusive to humans. In this work, we introduce Qwen, the first\ninstallment of our large language model series. Qwen is a comprehensive",
+   "ai_summary": "Qwen, a series of large language models, including chat and specialized coding and mathematics variants, exhibit superior performance across various tasks and outperform open-source models.",
+   "upvotes": 40,
+   "publishedAt": "2023-09-28T17:07:49.000Z",
+   "authors": [
+    {
+     "name": "Jinze Bai"
+    },
+    {
+     "name": "Shuai Bai"
+    },
+    {
+     "name": "Yunfei Chu"
+    }
+   ]
+  },
+  "publishedAt": "2023-09-28T13:07:49.000Z",
+  "title": "Qwen Technical Report"
+ },
+ {
+  "paper": {
+   "id": "2311.07919",
+   "title": "Qwen-Audio: Advancing Universal Audio Understanding via Unified\n  Large-Scale Audio-Language Models",
+   "summary": "Recently, instruction-following audio-language models have received broad\nattention for audio interaction with humans. However, the absence of\npre-trained audio models capable of handling diverse audio types and tasks has\nhindered progress in this field. Consequently, most existing works have only\nb",
+   "ai_summary": "Qwen-Audio addresses the limitation of diverse audio types and tasks in instruction-following models through a multi-task training framework with hierarchical tagging, achieving superior performance across benchmarks and enabling Qwen-Audio-Chat for versatile dialogue scenarios.",
+   "upvotes": 9,
+   "publishedAt": "2023-11-14T05:34:50.000Z",
+   "authors": [
+    {
+     "name": "Yunfei Chu"
+    },
+    {
+     "name": "Jin Xu"
+    },
+    {
+     "name": "Xiaohuan Zhou"
+    }
+   ]
+  },
+  "publishedAt": "2023-11-14T00:34:50.000Z",
+  "title": "Qwen-Audio: Advancing Universal Audio Understanding via Unified\n  Large-Scale Audio-Language Models"
+ }
+]

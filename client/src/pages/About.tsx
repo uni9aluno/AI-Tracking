@@ -43,7 +43,8 @@ export default function About() {
             bloqueia consultas frequentes e publica uma vez por dia.
           </li>
           <li>
-            <b>A cada 30 minutos:</b> em alta no GitHub e no Hugging Face.
+            <b>A cada 30 minutos:</b> em alta no GitHub e no Hugging Face, e a pesquisa dos 12
+            provedores (páginas de pesquisa, blogs oficiais e Hugging Face).
           </li>
           <li>
             <b>A cada hora:</b> placares da LMArena (eles mudam algumas vezes por semana).

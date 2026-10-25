@@ -5,6 +5,7 @@ import {
   Cpu,
   FileText,
   Flame,
+  FlaskConical,
   History,
   Home,
   Info,
@@ -24,6 +25,7 @@ const NAV = [
   { href: "/modelos", label: "Modelos", icon: Cpu, tab: true },
   { href: "/benchmarks", label: "Benchmarks", icon: Trophy, tab: false },
   { href: "/guia", label: "Qual IA usar", icon: Compass, tab: true },
+  { href: "/pesquisa", label: "Pesquisa", icon: FlaskConical, tab: false },
   { href: "/artigos", label: "Artigos", icon: FileText, tab: false },
   { href: "/em-alta", label: "Em alta", icon: Flame, tab: false },
   { href: "/linha-do-tempo", label: "Linha do tempo", icon: History, tab: false },
@@ -45,7 +47,10 @@ const CHIP_TONE: Record<LiveState, string> = {
 export function AppShell({ children }: { children: ReactNode }) {
   const [location] = useLocation();
   const here = normalize(location);
-  const current = NAV.find(item => item.href === here);
+  // A section also owns its sub-pages (/pesquisa/anthropic belongs to /pesquisa).
+  const isHere = (href: string) =>
+    href === here || (href !== "/" && here.startsWith(`${href}/`));
+  const current = NAV.find(item => isHere(item.href));
   const mainRef = useRef<HTMLElement>(null);
   const [moreOpen, setMoreOpen] = useState(false);
   const overview = useOverview();
@@ -78,7 +83,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     return () => window.removeEventListener("keydown", close);
   }, [moreOpen]);
 
-  const inMore = !NAV.find(i => i.href === here)?.tab && !!current;
+  const inMore = !!current && !current.tab;
 
   return (
     <div className="shell">
@@ -119,7 +124,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               <Link
                 key={item.href}
                 href={item.href}
-                aria-current={here === item.href ? "page" : undefined}
+                aria-current={isHere(item.href) ? "page" : undefined}
               >
                 <item.icon size={16} aria-hidden="true" />
                 {item.label}
@@ -167,7 +172,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               <Link
                 key={item.href}
                 href={item.href}
-                aria-current={here === item.href ? "page" : undefined}
+                aria-current={isHere(item.href) ? "page" : undefined}
               >
                 <item.icon size={20} aria-hidden="true" />
                 {item.label}
@@ -182,7 +187,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <Link
             key={item.href}
             href={item.href}
-            aria-current={here === item.href ? "page" : undefined}
+            aria-current={isHere(item.href) ? "page" : undefined}
           >
             <item.icon size={22} aria-hidden="true" />
             {item.href === "/guia" ? "Guia" : item.label}

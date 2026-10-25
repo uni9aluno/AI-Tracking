@@ -416,3 +416,22 @@ table.data .rank { color: var(--text-3); font-weight: 700; width: 36px; }
 .empty-state { text-align: center; padding: 48px 16px; display: grid; gap: 12px; justify-items: center; }
 .empty-state h1 { font-size: 26px; }
 .formula { font-family: var(--mono); background: var(--surface-2); border-radius: 10px; padding: 12px 14px; font-size: 13px; overflow-x: auto; text-align: left; }
+
+/* Pesquisa */
+.provider-mark { font-size: 15px; font-weight: 800; letter-spacing: 0.02em; }
+.research-provider h2 a { color: var(--text); }
+.research-counts { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.research-counts .muted { margin-left: auto; }
+.research-open { display: inline-flex; align-items: center; gap: 4px; font-size: 14px; }
+.tag.kind-post { background: var(--t-feature-bg); color: var(--t-feature); }
+.tag.kind-paper { background: var(--t-model-bg); color: var(--t-model); }
+.tag.kind-weights { background: var(--t-open-bg); color: var(--t-open); }
+.toolbar .link-btn { margin-left: auto; display: inline-flex; align-items: center; gap: 4px; }
+.provider-switch > a[aria-current="page"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+.research-card .news-source { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.research-card.featured { padding: 20px 22px; border-color: var(--brand); box-shadow: var(--shadow); }
+.research-card.featured .news-title { font-size: 21px; line-height: 1.3; }
+@media (max-width: 760px) {
+  .provider-switch { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+  .research-card .news-meta { flex-wrap: wrap; row-gap: 4px; }
+}

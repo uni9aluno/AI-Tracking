@@ -96,6 +96,46 @@ export type PapersResponse = {
   trending: Paper[];
 };
 
+/** "post": the lab's own research page or blog. "paper": paper the lab claimed on Hugging Face. "weights": open model it published. */
+export type ResearchKind = "post" | "paper" | "weights";
+export const RESEARCH_KIND_LABEL: Record<ResearchKind, string> = {
+  post: "Publicações",
+  paper: "Artigos",
+  weights: "Pesos abertos",
+};
+
+export type ResearchItem = {
+  id: string;
+  title: string;
+  link: string;
+  summary: string;
+  /** Null when the source page shows no date; such items keep the page order, after the dated ones. */
+  publishedAt: string | null;
+  kind: ResearchKind;
+  sourceId: string;
+  sourceLabel: string;
+  /** Hugging Face votes (papers) or likes (models). */
+  upvotes?: number;
+};
+
+export type ResearchProvider = {
+  id: string;
+  label: string;
+  /** The lab's own research or news page. */
+  homepage: string;
+  description: string;
+  items: ResearchItem[];
+  /** Ids of the sources behind this provider, to match against `sources`. */
+  sourceIds: string[];
+};
+
+export type ResearchResponse = {
+  updatedAt: string;
+  status: FeedStatus;
+  sources: SourceStatus[];
+  providers: ResearchProvider[];
+};
+
 export type Model = {
   id: string;
   name: string;

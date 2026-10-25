@@ -9,6 +9,7 @@ import Models from "./pages/Models";
 import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import Papers from "./pages/Papers";
+import Research from "./pages/Research";
 import Saved from "./pages/Saved";
 import Timeline from "./pages/Timeline";
 import Trending from "./pages/Trending";
@@ -24,6 +25,8 @@ function Routes() {
         <Route path="/modelos" component={Models} />
         <Route path="/benchmarks" component={Benchmarks} />
         <Route path="/guia" component={Guide} />
+        <Route path="/pesquisa" component={Research} />
+        <Route path="/pesquisa/:provider" component={Research} />
         <Route path="/artigos" component={Papers} />
         <Route path="/em-alta" component={Trending} />
         <Route path="/linha-do-tempo" component={Timeline} />

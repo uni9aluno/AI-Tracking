@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ElevenLabs Blog</title>
+    <link>https://elevenlabs.io/blog</link>
+    <description>Read the latest research, product, and company updates from ElevenLabs - provider of the most realistic and versatile AI audio tools</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Oct 2026 15:41:20 GMT</lastBuildDate>
+    <atom:link href="https://elevenlabs.io/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Immobiliare.it went from one conversational agent to an agentic network</title>
+      <link>https://elevenlabs.io/blog/immobiliare</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/immobiliare</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Italy’s leading property marketplace goes from one conversational agent to an agentic network</description>
+      <category>Customer Stories</category>
+      <dc:creator>Jacob Simonov</dc:creator>
+      <dc:creator>Alessandro Conca</dc:creator>
+    </item>
+<item>
+      <title>What is voice over? Definition, examples, and how it works</title>
+      <link>https://elevenlabs.io/blog/what-is-voice-over</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/what-is-voice-over</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn what is voice over, how it differs from voice acting and dubbing, and how to write a script and create a voice over with AI in minutes.
+</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+<item>
+      <title>Webinar Recap: Reaching At-Risk Patients When Minutes Matter</title>
+      <link>https://elevenlabs.io/blog/webinar-recap-reaching-at-risk-patients-when-minutes-matter</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/webinar-recap-reaching-at-risk-patients-when-minutes-matter</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn how Cadence uses ElevenAgents to reach patients within minutes of a vital sign reading outside the expected range.</description>
+      <category>Product</category>
+      <dc:creator>John Durovsik</dc:creator>
+    </item>
+<item>
+      <title>How to integrate Text to Speech into your applications</title>
+      <link>https://elevenlabs.io/blog/how-to-integrate-text-to-speech</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/how-to-integrate-text-to-speech</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn how to integrate Text to Speech into your application in four steps: create an API key, install the SDK, send your first request, and play the audio.</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+<item>
+      <title>Talk to anyone, in any language, in realtime</title>
+      <link>https://elevenlabs.io/blog/realtime-translation</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/realtime-translation</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Deliver live, expressive voice translation in more than 90 languages. Available for enterprises via ElevenAPI</description>
+      <category>Product</category>
+      <dc:creator>Eric Michaelis</dc:creator>
+    </item>
+<item>
+      <title>How to transcribe a podcast: A step-by-step guide</title>
+      <link>https://elevenlabs.io/blog/how-to-transcribe-a-podcast</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/how-to-transcribe-a-podcast</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Learn how to transcribe a podcast with AI in five steps, format the transcript as SRT or VTT, and publish it on podcast platforms and your website.</description>
+      <category>Resources</category>
+      <dc:creator>Jack Limebear</dc:creator>
+    </item>
+<item>
+      <title>Introducing Eleven Realtime: a simpler way to build natural voice agents</title>
+      <link>https://elevenlabs.io/blog/realtime</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/realtime</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Eleven Realtime is a new class of Speech to Speech models for voice agents that sound natural. Available in ElevenAgents and the Realtime API.</description>
+      <category>Product</category>
+      <dc:creator>Min Kim</dc:creator>
+    </item>
+<item>
+      <title>Trinity Logistics gets 25% higher margins on shipments booked with ElevenAgents</title>
+      <link>https://elevenlabs.io/blog/trinity-logistics</link>
+      <guid isPermaLink="true">https://elevenlabs.io/blog/trinity-logistics</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>How 3PL Trinity Logistics used ElevenAgents to automate 30,000 inbound carrier calls/month, lift margins 25% on automated bookings, and cut costs 40%.</description>
+      <category>Customer Stories</category>
+      <dc:creator>Jess Day</dc:creator>
+      <dc:creator>Juan Castellanos</dc:creator>
+      <dc:creator>Caroline Plonski</dc:creator>
+    </item>
+</channel></rss>

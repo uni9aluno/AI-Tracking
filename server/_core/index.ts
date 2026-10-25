@@ -53,6 +53,7 @@ async function startServer() {
     ["/api/trending", COLLECTORS.trending],
     ["/api/benchmarks", COLLECTORS.benchmarks],
     ["/api/api-status", COLLECTORS.apiStatus],
+    ["/api/research", COLLECTORS.research],
   ];
   for (const [route, collector] of routes) {
     app.get(route, async (req, res) => {
@@ -100,6 +101,7 @@ async function startServer() {
     const trending = c.trending.peek();
     const benchmarks = c.benchmarks.peek();
     const apiStatus = c.apiStatus.peek();
+    const research = c.research.peek();
     res.set("Cache-Control", "no-store").json(
       summarize({
         noticias: news && { ...news, count: news.items.length },
@@ -108,6 +110,7 @@ async function startServer() {
         emAlta: trending && { ...trending, count: trending.repos.length + trending.hfModels.length + trending.hfSpaces.length },
         benchmarks: benchmarks && { ...benchmarks, count: benchmarks.arenas.length },
         statusApis: apiStatus && { ...apiStatus, count: apiStatus.services.length },
+        pesquisa: research && { ...research, count: research.providers.reduce((n, p) => n + p.items.length, 0) },
       })
     );
   });

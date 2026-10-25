@@ -6,6 +6,7 @@ Painel pessoal sobre inteligência artificial, coletado de fontes públicas a ca
 - **Modelos**: os 460+ modelos da OpenRouter com preço, contexto, capacidades e índices da Artificial Analysis; filtros, ordenação e comparação lado a lado.
 - **Benchmarks**: 10 placares da LMArena (texto, programação web, agentes, visão, documentos, busca, imagem, edição, vídeo) e os índices da Artificial Analysis.
 - **Qual IA usar**: 14 necessidades, cada uma com o ranking ao vivo e ferramentas para começar.
+- **Pesquisa**: uma área para cada provedor (Anthropic, OpenAI, Google, Moonshot AI, DeepSeek, Manus, Meta AI, ElevenLabs, Qwen, GLM, Copilot e Grok), com posts das páginas de pesquisa e blogs oficiais, artigos que o laboratório assina no Hugging Face Papers e modelos de pesos abertos.
 - **Artigos** (HF Daily Papers e arXiv), **Em alta** (GitHub e Hugging Face), **Linha do tempo** de lançamentos, **Salvos** e **Como funciona**.
 
 Sem API paga e sem número digitado à mão (só as dicas do guia, em `data/guia.json`, são curadas). Base técnica: o Radar Eleitoral (`../Observacao`).
@@ -22,13 +23,15 @@ flowchart LR
   G[GitHub + HF Hub] --> T[trending.ts]
   L[LMArena dataset] --> B[benchmarks.ts]
   S[Statuspage] --> A[apiStatus.ts]
-  N & M & P & T & B & A --> C[(data/cache/*.json)]
-  N & M & P & T & B & A -->|/api/*| UI[React]
+  R[páginas de pesquisa + HF] --> Q[research.ts]
+  N & M & P & T & B & A & Q --> C[(data/cache/*.json)]
+  N & M & P & T & B & A & Q -->|/api/*| UI[React]
 ```
 
 - `server/scheduler.ts` dispara cada coletor no seu ritmo (5, 10, 30 ou 60 min), escalonados 4 s entre si.
 - `server/lib/collector.ts`: cache com promessa compartilhada; `?refresh=1` força no máximo a cada 15 s; resposta parcial é refeita em 1 a 5 min.
 - `server/lib/feed.ts`: leitor de RSS e Atom, extraído do `live.ts` do Radar Eleitoral.
+- `server/lib/cards.ts`: leitor de páginas de listagem sem feed (Anthropic Research, xAI News, Manus, Meta, Kimi): link, título, resumo e data de cada cartão.
 - `server/classify.ts`: regras de tópico, empresa e modelo (palavra inteira, prefixo `pref*` ou frase), em inglês e português.
 - Histórico em `data/cache/` (fora do git): notícias de 7 dias e a última resposta boa de cada fonte, para a tela não ficar vazia se uma fonte cair.
 
@@ -36,7 +39,7 @@ flowchart LR
 |---|---|
 | `GET /api/overview` | resumo da página inicial |
 | `GET /api/news` | notícias de 7 dias (~1 MB, enviado com gzip) |
-| `GET /api/models`, `/api/papers`, `/api/trending`, `/api/benchmarks`, `/api/api-status` | cada seção |
+| `GET /api/models`, `/api/papers`, `/api/trending`, `/api/benchmarks`, `/api/api-status`, `/api/research` | cada seção |
 | `GET /api/guide` | `data/guia.json` |
 | `GET /api/health`, `GET /api/status` | abertas, sem senha; o status só tem contagens e saúde das fontes |
 

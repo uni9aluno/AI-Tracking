@@ -42,3 +42,9 @@ Particularidades desta máquina (as mesmas do Observacao):
 - Pedido do usuário durante a criação: notícias classificadas por tópicos (novidades, novas funções, novos modelos, cibersegurança e outros), com filtros por modelo e por empresa/IA. Implementado com 17 tópicos, 22 empresas e 21 famílias de modelo.
 - Achados na coleta real: Google Notícias inundava a lista (limite de 12), "Claude ships X" virava modelo novo (agora exige versão: "Gemini 4", "GPT-6"), `/filter` do datasets-server falhava (trocado por `/rows`), placar de agentes usa `score`, Mistral Status dá 403, seção de IA do Canaltech parada desde julho.
 - Testes: 39.
+
+### 25/10/2026 (Pesquisa)
+- Pedido do usuário: área de pesquisa no estilo de anthropic.com/research, uma para cada provedor (Anthropic, OpenAI, Google, Moonshot AI, DeepSeek, Manus, Meta AI, ElevenLabs, Qwen, GLM, Copilot, Grok).
+- Coletor `research.ts` (30 min), leitor de cartões `server/lib/cards.ts`, rotas `/api/research`, telas `/pesquisa` e `/pesquisa/:provedor`. Fontes em `docs/fontes.md`.
+- Achados: na Anthropic a data fica acima do cartão (o leitor pegava a do vizinho), então vale o `publishedOn` dos dados da página; a busca de artigos do HF traz o campo `organization`, que separa os artigos oficiais dos que só citam o modelo.
+- Testes: 57.

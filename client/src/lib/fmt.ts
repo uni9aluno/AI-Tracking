@@ -51,6 +51,14 @@ export const day = (value: string) => {
     : date.toLocaleDateString("pt-BR", { day: "numeric", month: "short" });
 };
 
+/** "20 de out. de 2026", for dates that may be years old (research posts). */
+export const fullDay = (value: string) => {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime())
+    ? "—"
+    : date.toLocaleDateString("pt-BR", { day: "numeric", month: "short", year: "numeric" });
+};
+
 /** "agora", "há 4 min", "há 3 h", "há 2 dias". */
 export function ago(value: string | number, now = Date.now()) {
   const time = typeof value === "number" ? value : Date.parse(value);

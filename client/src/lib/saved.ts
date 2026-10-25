@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-import type { NewsItem, Paper } from "@shared/types";
+import type { NewsItem, Paper, ResearchItem } from "@shared/types";
 
 /**
  * Favorites and "read" marks live only in this browser (localStorage). Every access is guarded: private
@@ -7,7 +7,7 @@ import type { NewsItem, Paper } from "@shared/types";
  */
 export type SavedEntry = {
   id: string;
-  kind: "noticia" | "artigo" | "modelo";
+  kind: "noticia" | "artigo" | "modelo" | "pesquisa";
   title: string;
   link: string;
   source: string;
@@ -94,6 +94,17 @@ export const newsEntry = (item: NewsItem): Omit<SavedEntry, "savedAt"> => ({
   link: item.link,
   source: item.source,
   date: item.publishedAt,
+});
+export const researchEntry = (
+  item: ResearchItem,
+  provider: string
+): Omit<SavedEntry, "savedAt"> => ({
+  id: `p:${item.link}`,
+  kind: "pesquisa",
+  title: item.title,
+  link: item.link,
+  source: `${provider} · ${item.sourceLabel}`,
+  date: item.publishedAt ?? "",
 });
 export const paperEntry = (paper: Paper): Omit<SavedEntry, "savedAt"> => ({
   id: `a:${paper.id}`,
