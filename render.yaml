@@ -1,0 +1,26 @@
+# Blueprint do Render (plano gratuito). O serviço dorme após ~15 min sem acesso e o disco é efêmero.
+# A senha (APP_PASSWORD) é digitada no painel do Render; nunca vai para o repositório.
+services:
+  - type: web
+    name: radar-ia
+    runtime: node
+    plan: free
+    buildCommand: corepack enable && pnpm install --frozen-lockfile --prod=false && pnpm build
+    startCommand: node dist/index.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.19.0
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: APP_USER
+        value: radar
+      - key: APP_PASSWORD
+        sync: false
+      # Opcional: token gratuito do GitHub (sem escopos) para a busca de repositórios em alta.
+      - key: GITHUB_TOKEN
+        sync: false

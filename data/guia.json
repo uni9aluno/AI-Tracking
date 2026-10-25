@@ -1,0 +1,147 @@
+{
+  "reviewedAt": "2026-10-25",
+  "needs": [
+    {
+      "id": "conversar",
+      "title": "Conversar, escrever e revisar textos",
+      "description": "E-mails, resumos, ideias, revisão de português, explicações. O placar geral da LMArena mede o que as pessoas preferem numa conversa às cegas.",
+      "icon": "message",
+      "ranking": { "kind": "arena", "board": "text_style_control" },
+      "tips": [
+        { "name": "ChatGPT", "url": "https://chatgpt.com", "note": "App da OpenAI, com plano gratuito.", "free": true },
+        { "name": "Claude", "url": "https://claude.ai", "note": "App da Anthropic, com plano gratuito.", "free": true },
+        { "name": "Gemini", "url": "https://gemini.google.com", "note": "App do Google, com plano gratuito e integração com o Workspace.", "free": true }
+      ]
+    },
+    {
+      "id": "programar",
+      "title": "Programar e criar sites",
+      "description": "Gerar, corrigir e explicar código. O placar WebDev mede apps e sites gerados de verdade, testados por quem pediu.",
+      "icon": "code",
+      "ranking": { "kind": "arena", "board": "webdev" },
+      "tips": [
+        { "name": "Claude Code", "url": "https://www.anthropic.com/claude-code", "note": "Agente de programação no terminal e no editor.", "free": false },
+        { "name": "GitHub Copilot", "url": "https://github.com/features/copilot", "note": "Assistente no VS Code e outros editores; tem plano gratuito limitado.", "free": true },
+        { "name": "Aider", "url": "https://aider.chat", "note": "Open source; usa a chave de API do modelo que você escolher.", "free": true }
+      ]
+    },
+    {
+      "id": "agentes",
+      "title": "Agentes que executam tarefas",
+      "description": "Tarefas de várias etapas: mexer em arquivos, rodar comandos, usar ferramentas. Ranking da LMArena para agentes.",
+      "icon": "bot",
+      "ranking": { "kind": "arena", "board": "agent" },
+      "tips": [
+        { "name": "OpenHands", "url": "https://github.com/All-Hands-AI/OpenHands", "note": "Agente open source de desenvolvimento.", "free": true },
+        { "name": "Model Context Protocol", "url": "https://modelcontextprotocol.io", "note": "Padrão aberto para ligar agentes a ferramentas e dados.", "free": true }
+      ]
+    },
+    {
+      "id": "pesquisar",
+      "title": "Pesquisar na internet com fontes",
+      "description": "Respostas atualizadas com links para conferir. Placar de busca da LMArena.",
+      "icon": "search",
+      "ranking": { "kind": "arena", "board": "search" },
+      "tips": [
+        { "name": "Perplexity", "url": "https://www.perplexity.ai", "note": "Busca com citações; plano gratuito.", "free": true },
+        { "name": "Google AI Mode", "url": "https://www.google.com", "note": "Modo de IA da busca do Google.", "free": true }
+      ]
+    },
+    {
+      "id": "documentos",
+      "title": "Ler PDFs e documentos longos",
+      "description": "Perguntar sobre contratos, apostilas, relatórios. Placar de documentos da LMArena.",
+      "icon": "file",
+      "ranking": { "kind": "arena", "board": "document" },
+      "tips": [
+        { "name": "NotebookLM", "url": "https://notebooklm.google.com", "note": "Do Google; responde só com base nos seus arquivos e cita o trecho.", "free": true }
+      ]
+    },
+    {
+      "id": "visao",
+      "title": "Entender fotos, prints e gráficos",
+      "description": "Descrever imagens, ler tabelas em foto, explicar um gráfico. Placar de visão da LMArena.",
+      "icon": "eye",
+      "ranking": { "kind": "arena", "board": "vision" },
+      "tips": []
+    },
+    {
+      "id": "gerar-imagem",
+      "title": "Criar imagens",
+      "description": "Ilustrações, fotos, logotipos e artes a partir de texto. Placar de geração de imagem da LMArena.",
+      "icon": "image",
+      "ranking": { "kind": "arena", "board": "text_to_image" },
+      "tips": [
+        { "name": "ComfyUI", "url": "https://github.com/comfyanonymous/ComfyUI", "note": "Open source, roda modelos de imagem no seu computador (precisa de GPU).", "free": true },
+        { "name": "Midjourney", "url": "https://www.midjourney.com", "note": "Serviço pago focado em estética.", "free": false }
+      ]
+    },
+    {
+      "id": "editar-imagem",
+      "title": "Editar imagens",
+      "description": "Trocar fundo, remover objetos, mudar estilo de uma foto existente. Placar de edição da LMArena.",
+      "icon": "wand",
+      "ranking": { "kind": "arena", "board": "image_edit" },
+      "tips": []
+    },
+    {
+      "id": "video",
+      "title": "Criar vídeos",
+      "description": "Vídeos curtos a partir de texto ou de uma imagem. Placar de vídeo da LMArena.",
+      "icon": "video",
+      "ranking": { "kind": "arena", "board": "text_to_video" },
+      "tips": [
+        { "name": "Runway", "url": "https://runwayml.com", "note": "Editor de vídeo com IA; tem créditos gratuitos.", "free": true }
+      ]
+    },
+    {
+      "id": "voz",
+      "title": "Voz, áudio e transcrição",
+      "description": "Transcrever reuniões, conversar por voz, ditar. Lista de modelos que aceitam áudio na entrada, pelo índice de inteligência.",
+      "icon": "mic",
+      "ranking": { "kind": "models", "sort": "intelligence", "filter": { "input": "audio" } },
+      "tips": [
+        { "name": "Whisper", "url": "https://github.com/openai/whisper", "note": "Transcrição open source da OpenAI; roda no seu computador.", "free": true },
+        { "name": "ElevenLabs", "url": "https://elevenlabs.io", "note": "Vozes sintéticas e dublagem; plano gratuito limitado.", "free": true }
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Rodar no próprio computador",
+      "description": "Privacidade total e sem mensalidade: modelos com pesos abertos, ordenados pelo índice de inteligência da Artificial Analysis.",
+      "icon": "laptop",
+      "ranking": { "kind": "models", "sort": "intelligence", "filter": { "openWeights": true } },
+      "tips": [
+        { "name": "Ollama", "url": "https://ollama.com", "note": "Baixa e roda modelos abertos com um comando.", "free": true },
+        { "name": "LM Studio", "url": "https://lmstudio.ai", "note": "Interface gráfica para modelos locais.", "free": true },
+        { "name": "llama.cpp", "url": "https://github.com/ggml-org/llama.cpp", "note": "O motor por trás de muitos apps locais; roda até sem GPU.", "free": true }
+      ]
+    },
+    {
+      "id": "gratis",
+      "title": "Usar de graça pela API",
+      "description": "Modelos com preço zero na OpenRouter (com limite de uso), ordenados pelo índice de inteligência.",
+      "icon": "gift",
+      "ranking": { "kind": "models", "sort": "intelligence", "filter": { "free": true } },
+      "tips": [
+        { "name": "OpenRouter", "url": "https://openrouter.ai/models?max_price=0", "note": "Uma chave para centenas de modelos; os gratuitos têm limite diário.", "free": true }
+      ]
+    },
+    {
+      "id": "barato",
+      "title": "Melhor custo-benefício na API",
+      "description": "Modelos com índice de inteligência de pelo menos 45, do mais barato ao mais caro (preço de entrada + saída por milhão de tokens).",
+      "icon": "coins",
+      "ranking": { "kind": "models", "sort": "price", "filter": { "minIntelligence": 45 } },
+      "tips": []
+    },
+    {
+      "id": "contexto",
+      "title": "Textos enormes de uma vez",
+      "description": "Livros, bases de código, horas de transcrição: maiores janelas de contexto entre modelos com índice de inteligência de 30 ou mais.",
+      "icon": "layers",
+      "ranking": { "kind": "models", "sort": "context", "filter": { "minIntelligence": 30 } },
+      "tips": []
+    }
+  ]
+}

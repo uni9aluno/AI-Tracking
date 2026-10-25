@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>Tecnoblog</title>
+	<atom:link href="https://tecnoblog.net/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tecnoblog.net/</link>
+	<description>tecnologia que interessa</description>
+	<lastBuildDate>Fri, 23 Oct 2026 21:14:57 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<atom:link rel="hub" href="https://pubsubhubbub.appspot.com"/>
+<atom:link rel="hub" href="https://pubsubhubbub.superfeedr.com"/>
+<atom:link rel="hub" href="https://websubhub.com/hub"/>
+<atom:link rel="self" href="https://tecnoblog.net/feed/"/>
+	<item>
+		<title>Bug pode deixar Galaxy S26 Ultra praticamente inutilizável</title>
+		<link>https://tecnoblog.net/noticias/bug-pode-deixar-galaxy-s26-ultra-praticamente-inutilizavel/</link>
+					<comments>https://tecnoblog.net/noticias/bug-pode-deixar-galaxy-s26-ultra-praticamente-inutilizavel/#respond</comments>
+		
+		<dc:creator><![CDATA[Gabriel Sérvio]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 21:14:40 +0000</pubDate>
+				<category><![CDATA[Celulares]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[celulares]]></category>
+		<category><![CDATA[Galaxy S26 Ultra]]></category>
+		<category><![CDATA[One UI]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<guid isPermaLink="false">https://tecnoblog.net/?post_type=noticias&#038;p=943096</guid>
+
+					<description><![CDATA[<p>Samsung confirmou a falha que impede o acesso à tela inicial do Android.</p>
+<p><a href="https://tecnoblog.net/noticias/bug-pode-deixar-galaxy-s26-ultra-praticamente-inutilizavel/">Bug pode deixar Galaxy S26 Ultra praticamente inutilizável</a></p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6adbd485d76f5&quot;}" data-wp-interactive="core/image" data-wp-key="6adbd485d76f5" class="wp-block-image size-large wp-lightbox-container"><img decoding="async" width="1060" height="596" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://files.tecnoblog.net/wp-content/uploads/2026/05/galaxy-s26-ultra_0112-1-1060x596.jpg" alt="Pessoa segurando um celular com a tela inicial aberta, mostrando aplicativos e clima no desktop" class="wp-image-897097"/><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Galaxy S26 Ultra recebeu a One UI 9 no Brasil no fim de setembro (Foto: Ana Marques/Tecnoblog)</figcaption></figure>
+
+
+<details class="tb-resumo tb-callout padrao">
+    <summary class="tb-callout-titulo">Resumo</summary>
+    <div class="tb-resumo-topicos tb-callout-texto"><ul>
+<li>A Samsung confirmou um bug da One UI 9 que pode prender o Galaxy S26 Ultra na tela de configuração.</li>
+<li>O problema pode aparecer após restauração para os padrões de fábrica.</li>
+<li>A fabricante divulgou soluções temporárias enquanto prepara uma correção definitiva.</li>
+</ul>
+</div>
+</details>
+
+
+
+<p class="wp-block-paragraph">A Samsung confirmou um bug da One UI 9 que pode deixar algumas unidades do Galaxy S26 Ultra praticamente inutilizáveis. A falha impede a conclusão da configuração do aparelho e pode deixar o usuário sem acesso à tela inicial.</p>
+
+
+
+<p class="wp-block-paragraph">O problema foi reconhecido por um representante da empresa após relatos na comunidade digital Samsung Members. Até agora, as queixas relacionadas especificamente à tela de configuração aparecem principalmente na Coreia do Sul.</p>
+
+
+
+<h2 id="h-quando-o-galaxy-s26-ultra-pode-travar" class="wp-block-heading">Quando o Galaxy S26 Ultra pode travar?</h2>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6adbd485d7c62&quot;}" data-wp-interactive="core/image" data-wp-key="6adbd485d7c62" class="wp-block-image size-full wp-lightbox-container"><img decoding="async" width="993" height="437" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://files.tecnoblog.net/wp-content/uploads/2026/10/galaxys26ultra-oneui9-bug.webp" alt="" class="wp-image-943099"/><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Bug pode impedir a conclusão da configuração após restauração do aparelho (imagem: reprodução/Samsung Members)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">A falha pode aparecer depois que um Galaxy S26 Ultra com a One UI 9 é restaurado para os padrões de fábrica. Durante a configuração, o celular tenta carregar uma página relacionada à Samsung Account, mas exibe o erro de <a href="https://9to5google.com/2026/10/22/samsung-galaxy-s26-setup-bug/" target="_blank" rel="noreferrer noopener" class="icon-external">que o conteúdo não está disponível</a>.</p>
+
+
+
+<p class="wp-block-paragraph">Como essa etapa faz parte do processo inicial, o usuário pode ficar preso na configuração sem conseguir chegar à tela principal do Android. Segundo a Samsung, o problema ocorre quando o sistema usa uma versão instável do WebView em determinadas redes. A empresa divulgou algumas soluções temporárias.</p>
+
+
+
+<h2 id="h-como-contornar-o-problema" class="wp-block-heading">Como contornar o problema?</h2>
+
+
+
+<p class="wp-block-paragraph">Uma das alternativas apontadas é trocar o tipo de conexão durante a configuração, alternando entre Wi-Fi e dados móveis. Outra opção é acessar a conta da Samsung por outro aparelho, fazer login e aceitar eventuais termos de uso. Depois disso, o usuário pode tentar concluir novamente a configuração do Galaxy S26 Ultra.</p>
+
+
+
+<p class="wp-block-paragraph">Se nenhuma dessas medidas funcionar, a orientação é procurar o suporte da fabricante. Ainda <a href="https://www.notebookcheck.net/Samsung-Galaxy-S26-Ultra-can-become-unusable-due-to-One-UI-9-bug.1431447.0.html" target="_blank" rel="noreferrer noopener" class="icon-external">não há uma data confirmada</a> para uma correção definitiva.</p>
+
+
+
+<h2 id="h-ha-relatos-do-problema-no-brasil" class="wp-block-heading">Há relatos do problema no Brasil?</h2>
+
+
+
+<p class="wp-block-paragraph">A One UI 9 começou a chegar à linha Galaxy S26 brasileira <a href="https://tecnoblog.net/noticias/nova-samsung-one-ui-chega-a-mais-celulares-brasileiros/" target="_blank" rel="noreferrer noopener">no fim de setembro</a>. Até o momento, não encontramos relatos locais do mesmo erro que impede concluir a configuração. Há reclamações sobre outros problemas de estabilidade, como <a href="https://r1.community.samsung.com/t5/galaxy-s/critico-s26-ultra-zto-one-ui-9-0-travando-sem-parar/td-p/39847480" target="_blank" rel="noreferrer noopener" class="icon-external">travamentos, tela preta e lentidão</a>, segundo um consumidor.</p>
+
+
+
+<p class="wp-block-paragraph">Enquanto a correção não chega, usuários podem evitar restaurar o Galaxy S26 Ultra com One UI 9 para os padrões de fábrica sem necessidade.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="GALAXY S26 ULTRA vale a pena? Os PRÓS e CONTRAS que ninguém te conta [Análise / Review]" width="500" height="281" src="https://www.youtube.com/embed/ycsva9hvHcU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+<p><a href="https://tecnoblog.net/noticias/bug-pode-deixar-galaxy-s26-ultra-praticamente-inutilizavel/">Bug pode deixar Galaxy S26 Ultra praticamente inutilizável</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://www.youtube.com/embed/ycsva9hvHcU" duration="1178">
+			<media:player url="https://www.youtube.com/embed/ycsva9hvHcU" />
+			<media:title type="html">Bug pode deixar Galaxy S26 Ultra praticamente inutilizável &#38;#8226; Tecnoblog</media:title>
+			<media:description type="html">Samsung confirmou a falha que impede o acesso à tela inicial do Android.</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/10/ycsva9hvhcu-2.jpg" />
+			<media:keywords>Android,celulares,Galaxy S26 Ultra,One UI,Samsung</media:keywords>
+		</media:content>
+		<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/05/galaxy-s26-ultra_0112-1-340x191.jpg" />
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/05/galaxy-s26-ultra_0112-1.jpg" medium="image">
+			<media:title type="html">GALAXY-S26-ULTRA_0112</media:title>
+			<media:description type="html">Galaxy S26 Ultra (Foto: Ana Marques/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/05/galaxy-s26-ultra_0112-1-340x191.jpg" />
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/10/galaxys26ultra-oneui9-bug.webp" medium="image">
+			<media:title type="html">galaxys26ultra-oneui9-bug</media:title>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/10/galaxys26ultra-oneui9-bug-340x191.webp" />
+		</media:content>
+	</item>
+		<item>
+		<title>Galaxy Tab S11 5G (256 GB) entra em oferta para quem busca alto desempenho</title>
+		<link>https://tecnoblog.net/achados/galaxy-tab-s11-5g-256-gb-entra-em-oferta-para-quem-busca-alto-desempenho/</link>
+					<comments>https://tecnoblog.net/achados/galaxy-tab-s11-5g-256-gb-entra-em-oferta-para-quem-busca-alto-desempenho/#respond</comments>
+		
+		<dc:creator><![CDATA[Ronaldo Gogoni]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 20:25:02 +0000</pubDate>
+				<category><![CDATA[Tablets]]></category>
+		<category><![CDATA[AMOLED]]></category>
+		<category><![CDATA[Galaxy Tab S11]]></category>
+		<category><![CDATA[Magazine Luiza]]></category>
+		<category><![CDATA[Pix]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<guid isPermaLink="false">https://tecnoblog.net/?post_type=achados&#038;p=943111</guid>
+
+					<description><![CDATA[<p>Galaxy Tab S11 5G (256 GB) tem 12 GB de RAM e tela AMOLED de 120 Hz; tablet premium da Samsung sai 25% mais em conta no Pix em oferta do Magazine Luiza</p>
+<p><a href="https://tecnoblog.net/achados/galaxy-tab-s11-5g-256-gb-entra-em-oferta-para-quem-busca-alto-desempenho/">Galaxy Tab S11 5G (256 GB) entra em oferta para quem busca alto desempenho</a></p>
+]]></description>
+										<content:encoded><![CDATA[<div class="widget-produto">
+            <div class="oferta " style="position: relative;">
+            <div class="widget-header">
+                        <div class="btns" >
+            
+            <a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link " target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                <span class="discount">25% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                                            <div class="imagem">
+                        <a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow"><img decoding="async" src="https://files.tecnoblog.net/wp-content/uploads/2026/09/galaxy-tab-s11-achou-correu-1060x596.png" ></a>
+                    </div>
+                
+                <div class="widget-info-container">
+                    <div class="widget-info">
+                        <a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow">Galaxy Tab S11 5G 256 GB</a>
+                        <a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="price tb-block-link" target="_blank" rel="sponsored nofollow">R$ 5.631,12</a>
+                    </div>
+                                            <div class="discount"><s>R$ 7.499,00</s><b>25% OFF</b></div>
+                                    </div>
+
+                                    <hr class="tb-divider"></hr>
+
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <span>Prós</span>
+                            <ul>
+                                                                        <li>Inclui capa-teclado e caneta </li>
+                                                                            <li>Tela AMOLED Dinâmica 2x de 11″</li>
+                                                                            <li>12 GB de memória RAM</li>
+                                                                            <li>Bateria de 8.400 mAh</li>
+                                                                            <li>DeX com Modo Estendido</li>
+                                                                                                   
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <span>Contras</span>
+                            <ul>
+                                                                        <li>S Pen não tem Bluetooth</li>
+                                                                            <li>Carregador na caixa não é de 45 W</li>
+                                                                            <li>Sem conectividade a NFC</li>
+                                                                                                </ul>
+                        </div>
+
+                    </div>
+                
+                                    <div class="tags">
+                                                    <span class="pix default">PIX</span>
+                                            </div>
+                            </div>
+
+            
+                    <div class="btns" >
+            
+            <a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link " target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                <span class="discount">25% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                </div>
+    
+    <div class="widget-footer ">
+        <div>
+        Participe dos canais de ofertas do Achados do TB
+        </div>
+        <div class="social">
+            <a href="https://tecnoblog.net/zap" class="whatsapp" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-whatsapp"></i> WhatsApp</a>
+            <a href="https://t.me/achadosdotb" class="telegram tb-block-link" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-telegram"></i> Telegram</a>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="wp-block-paragraph">O Galaxy Tab S11 5G (256 GB) está saindo <a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">por R$ 5.631 no Pix</a> no Magazine Luiza. O tablet premium da Samsung, com 12 GB de RAM para alto desempenho e tela AMOLED de 120 Hz, recebe desconto de 25% sobre o preço original de R$ 7.499.</p>
+
+
+
+<h2 id="h-galaxy-tab-s11-5g-traz-12-gb-de-ram-e-tela-amoled-de-120-hz" class="wp-block-heading">Galaxy Tab S11 5G traz 12 GB de RAM e tela AMOLED de 120 Hz</h2>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1060" height="596" src="https://files.tecnoblog.net/wp-content/uploads/2026/02/img_0529-1060x596.jpg" alt="Galaxy Tab S11 (foto: Thássius Veloso/Tecnoblog)" class="wp-image-880014" style="aspect-ratio:1.778523489932886;width:1060px;height:auto"/><figcaption class="wp-element-caption">Tela de 11&#8243; do Tab S11 5G oferece bastante espaço (imagem: Thássius Veloso/Tecnoblog)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">O Galaxy Tab S11 é <a href="https://tecnoblog.net/guias/melhor-tablet-top-de-linha/">um tablet premium de alto desempenho</a>, provido pelo chip MediaTek Dimensity 9400 e 12 GB de RAM, que dão conta de apps pesados em multitarefa e games mais exigentes. Os 256 GB de espaço interno podem ser expandidos com <a href="https://tecnoblog.net/responde/uhs-express-xc-e-classe-10-o-que-significam-as-letras-e-numeros-dos-cartoes-microsd/">cartões microSD</a> de até 2 TB.</p>
+
+
+
+<p class="wp-block-paragraph">Sua tela AMOLED Dinâmico 2X de 11″ possui taxa de 120 Hz, brilho de até 1.600 nits e suporte a HDR10+. Com isso, o tablet é capaz de reproduzir imagens com cores vibrantes, alta fluidez em transições, alto contraste e visibilidade, além de oferecer amplo espaço para rodar apps de produtividade.</p>
+
+
+
+<p class="wp-block-paragraph">A inclusão da caneta S Pen, que oferece precisão em escrita e desenhos, e da capa-teclado no kit, reforçam seu uso como ferramenta de produtividade, auxiliada por recursos de IA para auxiliar nas pesquisas. O modo DeX Estendido habilita o modo de uso como laptop e permite usar um monitor externo como segunda tela.</p>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1060" height="597" src="https://files.tecnoblog.net/wp-content/uploads/2026/03/galaxy-tab-s11-ultra-3-1060x597.jpg" alt="Galaxy Tab S11 possui encaixe magnético na parte superior para a caneta Stylus" class="wp-image-885221" style="aspect-ratio:1.7755443886097153;width:1060px;height:auto"/><figcaption class="wp-element-caption">A caneta S Pen foi redesenhada com ponta cônica e corpo hexagonal (imagem: Thássius Veloso/Tecnoblog)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">A câmera traseira de 13 MP do tablet possui alta resolução para fotografar documentos, enquanto a frontal de 12 MP tem boa qualidade para chamadas de vídeo. Outro diferencial é a <a href="https://tecnoblog.net/guias/tablet-5g/">conectividade 5G</a>, que o permite conectar à internet em qualquer lugar, além do suporte a Wi-Fi 6E e&nbsp;<a href="https://tecnoblog.net/responde/diferencas-entre-versoes-bluetooth-5/">Bluetooth 5.4</a>.</p>
+
+
+
+<p class="wp-block-paragraph">O Galaxy Tab S11 5G de 256 GB (<a href="https://tecno.click/6cf" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">R$ 5.631 no Pix</a>) será atualizado até o Android 23. O tablet de ponta da Samsung possui bateria de 8.400 mAh com autonomia de até 18 horas de reprodução de vídeo, com suporte a carregamento rápido de 45 W (o carregador na caixa é de 15 W), segundo a fabricante.</p>
+<p><span class="aviso-etica"><a href="https://tecnoblog.net/etica/#h-links-de-afiliados">Aviso de ética:</a> ao clicar em um link de afiliado, o preço não muda para você e recebemos uma comissão.</span></p><p><a href="https://tecnoblog.net/achados/galaxy-tab-s11-5g-256-gb-entra-em-oferta-para-quem-busca-alto-desempenho/">Galaxy Tab S11 5G (256 GB) entra em oferta para quem busca alto desempenho</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://tecnoblog.net/files.tecnoblog.net/wp-content/uploads/2026/09/galaxy-tab-s11-achou-correu-1060x596.png" />
+		<media:content url="https://tecnoblog.net/files.tecnoblog.net/wp-content/uploads/2026/09/galaxy-tab-s11-achou-correu-1060x596.png" medium="image" />
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/02/img_0529.jpg" medium="image">
+			<media:title type="html">Galaxy Tab S11 (foto: Thássius Veloso/Tecnoblog)</media:title>
+			<media:description type="html">Galaxy Tab S11 (foto: Thássius Veloso/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/02/img_0529-340x191.jpg" />
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/03/galaxy-tab-s11-ultra-3.jpg" medium="image">
+			<media:title type="html">Galaxy Tab S11 Ultra-3</media:title>
+			<media:description type="html">Galaxy Tab S11 (imagem: Thássius Veloso/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/03/galaxy-tab-s11-ultra-3-340x191.jpg" />
+		</media:content>
+	</item>
+		<item>
+		<title>Motorola Edge 70 Fusion Plus (512 GB) atinge menor preço que já vimos</title>
+		<link>https://tecnoblog.net/achados/motorola-edge-70-fusion-plus-512-gb-atinge-menor-preco-que-ja-vimos/</link>
+					<comments>https://tecnoblog.net/achados/motorola-edge-70-fusion-plus-512-gb-atinge-menor-preco-que-ja-vimos/#respond</comments>
+		
+		<dc:creator><![CDATA[Ronaldo Gogoni]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 19:54:02 +0000</pubDate>
+				<category><![CDATA[Celulares]]></category>
+		<category><![CDATA[AMOLED]]></category>
+		<category><![CDATA[Magazine Luiza]]></category>
+		<category><![CDATA[Motorola]]></category>
+		<category><![CDATA[Motorola Edge 70 Fusion Plus]]></category>
+		<category><![CDATA[Pix]]></category>
+		<category><![CDATA[Snapdragon]]></category>
+		<category><![CDATA[Sony]]></category>
+		<guid isPermaLink="false">https://tecnoblog.net/?post_type=achados&#038;p=943101</guid>
+
+					<description><![CDATA[<p>Edge 70 Fusion Plus (512 GB) tem tela AMOLED de 144 Hz e câmeras do Edge 70; celular da Motorola recebe desconto de 34% no Pix com cupom</p>
+<p><a href="https://tecnoblog.net/achados/motorola-edge-70-fusion-plus-512-gb-atinge-menor-preco-que-ja-vimos/">Motorola Edge 70 Fusion Plus (512 GB) atinge menor preço que já vimos</a></p>
+]]></description>
+										<content:encoded><![CDATA[<div class="widget-produto">
+            <div class="oferta " style="position: relative;">
+            <div class="widget-header">
+                        <div class="btns" >
+                                <span class="cupom_container" data-text="" onclick="handle_redirect(this)">LU300</span>
+                            
+            <a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link " target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                <span class="discount">38% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                                            <div class="imagem">
+                        <a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow"><img decoding="async" src="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-plus-achados-002-1060x596.jpg" ></a>
+                    </div>
+                
+                <div class="widget-info-container">
+                    <div class="widget-info">
+                        <a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow">Motorola Edge 70 Fusion Plus 5G 512 GB</a>
+                        <a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="price tb-block-link" target="_blank" rel="sponsored nofollow">R$ 2.589,00</a>
+                    </div>
+                                            <div class="discount"><s>R$ 4.199,00</s><b>38% OFF</b></div>
+                                    </div>
+
+                                    <hr class="tb-divider"></hr>
+
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <span>Prós</span>
+                            <ul>
+                                                                        <li>Tela   de 6,78&#8243; com 144 Hz</li>
+                                                                            <li>Câmeras do Edge 70 + teleobjetiva</li>
+                                                                            <li>12 GB de RAM física</li>
+                                                                            <li>IP68/IP69 e MIL-STD-810H</li>
+                                                                            <li>Bateria de 5.200 mAh</li>
+                                                                                                   
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <span>Contras</span>
+                            <ul>
+                                                                        <li>Atualizações por somente 3 anos</li>
+                                                                                                </ul>
+                        </div>
+
+                    </div>
+                
+                                    <div class="tags">
+                                                    <span class="pix default">PIX</span>
+                                                    <span class="cupom default">Cupom</span>
+                                                    <span class="app default">Somente no APP</span>
+                                            </div>
+                            </div>
+
+            
+                    <div class="btns" >
+                                <span class="cupom_container" data-text="" onclick="handle_redirect(this)">LU300</span>
+                            
+            <a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link " target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                <span class="discount">38% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                </div>
+    
+    <div class="widget-footer ">
+        <div>
+        Participe dos canais de ofertas do Achados do TB
+        </div>
+        <div class="social">
+            <a href="https://tecnoblog.net/zap" class="whatsapp" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-whatsapp"></i> WhatsApp</a>
+            <a href="https://t.me/achadosdotb" class="telegram tb-block-link" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-telegram"></i> Telegram</a>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="wp-block-paragraph">O Edge 70 Fusion Plus de 512 GB está saindo <a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">por R$ 2.589 no Pix com cupom LU300 somente no app</a> do Magazine Luiza. O celular da Motorola com tela AMOLED de 144 Hz, chip Snapdragon e câmera Sony de 50 MP alcança o menor preço visto pelo <strong>Achados</strong>, com desconto de 38% sobre o original de R$ 4.199.</p>
+
+
+
+<h2 id="h-edge-70-fusion-plus-tem-camera-sony-de-50-mp-e-tela-de-144-hz" class="wp-block-heading">Edge 70 Fusion Plus tem câmera Sony de 50 MP e tela de 144 Hz</h2>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1920" height="1080" src="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-plus-front.jpg" alt="Motorola Edge 70 Fusion Plus (foto: Giovanni Santa Rosa/Tecnoblog)" class="wp-image-904147" style="aspect-ratio:1.7777777777777777;width:1920px;height:auto"/><figcaption class="wp-element-caption">Tela Extreme AMOLED do Edge 70 Fusion Plus é bastante fluida (foto: Giovanni Santa Rosa/Tecnoblog)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">O Edge 70 Fusion Plus possui uma tela&nbsp;<a href="https://tecnoblog.net/responde/o-que-e-amoled/">Extreme AMOLED</a>&nbsp;de 6,78″ com certificação Pantone Verified, taxa&nbsp;de 144 Hz e brilho de até 5.200 nits. Tal combinação a permite reproduzir cores vivas com alta fluidez e visibilidade garantida em qualquer lugar. O vidro <a href="https://tecnoblog.net/responde/o-que-e-gorilla-glass/">Gorilla Glass 7i</a> protege-a contra quedas e pancadas.</p>
+
+
+
+<p class="wp-block-paragraph">Seu chip Qualcomm Snapdragon 7s Gen 4 e os 12 GB de RAM física&nbsp;suportam apps em multitarefa e funções da suíte Moto AI. Os 512 GB de armazenamento oferecem espaço interno de sobra para guardar vídeos e fotos.</p>
+
+
+
+<p class="wp-block-paragraph">O kit de câmeras é formado por uma wide com sensor principal Sony LYTIA 710 com&nbsp;<a href="https://tecnoblog.net/responde/o-que-e-estabilizacao-optica-de-imagem-ois/" target="_blank" rel="noopener">OIS</a> e uma ultrawide de 13 MP, ambas de 50 MP e que captam belas cenas ao ar livre. A telefoto de 10 MP possui&nbsp;<a href="https://tecnoblog.net/responde/zoom-optico-vs-zoom-digital-qual-a-diferenca/" target="_blank" rel="noopener">zoom óptico</a>&nbsp;de 3x para aproximações, e a frontal de 32 MP tira ótimas selfies. Todas filmam em 4K.</p>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1920" height="1080" src="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-and-fusion-plus.jpg" alt="Motorola Edge 70 Fusion (esq.) e Fusion Plus (dir.) (foto: Giovanni Santa Rosa/Tecnoblog)" class="wp-image-904149" style="aspect-ratio:1.7777777777777777;width:1920px;height:auto"/><figcaption class="wp-element-caption">Edge 70 Fusion Plus possui kit de câmeras versátil (foto: Giovanni Santa Rosa/Tecnoblog)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">O corpo em plástico do Edge 70 Fusion Plus possui certificações&nbsp;<a href="https://tecnoblog.net/responde/ip67-e-ip68-a-diferenca-entre-os-graus-de-certificacao-ip/">IP68/IP69</a>&nbsp;e&nbsp;<a href="https://tecnoblog.net/responde/mil-std-810g-e-mil-std-810h-conheca-a-certificacao-militar-em-aparelhos-eletronicos/">MIL-STD810H</a>, que conferem alta resistência em cenários extremos como poeira intensa, mergulhos acidentais e altas temperaturas.</p>
+
+
+
+<p class="wp-block-paragraph">De acordo com a Motorola, a bateria de 5.200 mAh resiste a até 39 horas de uso. Além disso, o carregamento TurboPower de 68 W permite receber uma carga completa via USB-C em apenas 10 minutos, também segundo a fabricante. Com isso, o celular é uma excelente opção para usuários com uma agenda corrida.</p>
+
+
+
+<p class="wp-block-paragraph">O Motorola Edge 70 Fusion Plus de 512 GB (<a href="https://tecno.click/2nk" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">R$ 2.589 no Pix com cupom LU300 somente no app</a>) será atualizado até o Android 19 e possui conectividade 5G, Wi-Fi 6E, Bluetooth 6.0 e NFC.</p>
+<p><span class="aviso-etica"><a href="https://tecnoblog.net/etica/#h-links-de-afiliados">Aviso de ética:</a> ao clicar em um link de afiliado, o preço não muda para você e recebemos uma comissão.</span></p><p><a href="https://tecnoblog.net/achados/motorola-edge-70-fusion-plus-512-gb-atinge-menor-preco-que-ja-vimos/">Motorola Edge 70 Fusion Plus (512 GB) atinge menor preço que já vimos</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://tecnoblog.net/files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-plus-achados-002-1060x596.jpg" />
+		<media:content url="https://tecnoblog.net/files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-plus-achados-002-1060x596.jpg" medium="image" />
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-plus-front.jpg" medium="image">
+			<media:title type="html">Motorola Edge 70 Fusion Plus (foto: Giovanni Santa Rosa/Tecnoblog)</media:title>
+			<media:description type="html">Motorola Edge 70 Fusion Plus (foto: Giovanni Santa Rosa/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-plus-front-340x191.jpg" />
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-and-fusion-plus.jpg" medium="image">
+			<media:title type="html">Motorola Edge 70 Fusion (esq.) e Fusion Plus (dir.) (foto: Giovanni Santa Rosa/Tecnoblog)</media:title>
+			<media:description type="html">Motorola Edge 70 Fusion (esq.) e Fusion Plus (dir.) (foto: Giovanni Santa Rosa/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/06/motorola-edge-70-fusion-and-fusion-plus-340x191.jpg" />
+		</media:content>
+	</item>
+		<item>
+		<title>Acer Aspire Go 15 com RAM de 16 GB despenca 45% em até 10x sem juros</title>
+		<link>https://tecnoblog.net/achados/acer-aspire-go-15-com-ram-de-16-gb-despenca-45-em-ate-10x-sem-juros/</link>
+					<comments>https://tecnoblog.net/achados/acer-aspire-go-15-com-ram-de-16-gb-despenca-45-em-ate-10x-sem-juros/#respond</comments>
+		
+		<dc:creator><![CDATA[Ronaldo Gogoni]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 19:21:09 +0000</pubDate>
+				<category><![CDATA[Computadores]]></category>
+		<category><![CDATA[Acer]]></category>
+		<category><![CDATA[Acer Aspire GO 15]]></category>
+		<category><![CDATA[Intel]]></category>
+		<category><![CDATA[Mercado Livre]]></category>
+		<guid isPermaLink="false">https://tecnoblog.net/?post_type=achados&#038;p=943080</guid>
+
+					<description><![CDATA[<p>Aspire Go 15 tem RAM DDR5 e chip Intel Core i7; notebook da Acer atinge o menor preço em meses com oferta parcelável aplicando cupom no Mercado Livre</p>
+<p><a href="https://tecnoblog.net/achados/acer-aspire-go-15-com-ram-de-16-gb-despenca-45-em-ate-10x-sem-juros/">Acer Aspire Go 15 com RAM de 16 GB despenca 45% em até 10x sem juros</a></p>
+]]></description>
+										<content:encoded><![CDATA[<div class="widget-produto">
+            <div class="oferta " style="position: relative;">
+            <div class="widget-header">
+                        <div class="btns" >
+                                <span class="cupom_container" data-text="" onclick="handle_redirect(this)">R$ 600 OFF DISPONíVEL NA PáGINA</span>
+                            
+            <a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link ml" target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                    <span class="logo"><img decoding="async" src="https://tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/ml.png" alt="Mercado Livre"></span>
+                                <span class="discount">45% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                                            <div class="imagem">
+                        <a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow"><img decoding="async" src="https://files.tecnoblog.net/wp-content/uploads/2026/06/acer-aspire-go-15-imagem-divulgacao-1060x596.png" ></a>
+                    </div>
+                
+                <div class="widget-info-container">
+                    <div class="widget-info">
+                        <a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow">Notebook Acer Aspire GO 15 AG15-71PT-72EL</a>
+                        <a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="price tb-block-link" target="_blank" rel="sponsored nofollow">R$ 4.399,00</a>
+                    </div>
+                                            <div class="discount"><s>R$ 7.999,00</s><b>45% OFF</b></div>
+                                    </div>
+
+                                    <hr class="tb-divider"></hr>
+
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <span>Prós</span>
+                            <ul>
+                                                                        <li>Tela de 15,6&#8243; com resolução Full HD</li>
+                                                                            <li>16 GB RAM DDR5 expansível</li>
+                                                                            <li>Chip Intel Core i7-13620H potente</li>
+                                                                            <li>SSD de 512 GB</li>
+                                                                            <li>Sistema Windows 11 Home</li>
+                                                                                                   
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <span>Contras</span>
+                            <ul>
+                                                                        <li>GPU integrada não é para games</li>
+                                                                                                </ul>
+                        </div>
+
+                    </div>
+                
+                                    <div class="tags">
+                                                    <span class="cupom default">Cupom</span>
+                                                    <span class="parcelado ">Parcelado</span>
+                                            </div>
+                            </div>
+
+            
+                    <div class="btns" >
+                                <span class="cupom_container" data-text="" onclick="handle_redirect(this)">R$ 600 OFF DISPONíVEL NA PáGINA</span>
+                            
+            <a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link ml" target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                    <span class="logo"><img decoding="async" src="https://tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/ml.png" alt="Mercado Livre"></span>
+                                <span class="discount">45% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                </div>
+    
+    <div class="widget-footer ">
+        <div>
+        Participe dos canais de ofertas do Achados do TB
+        </div>
+        <div class="social">
+            <a href="https://tecnoblog.net/zap" class="whatsapp" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-whatsapp"></i> WhatsApp</a>
+            <a href="https://t.me/achadosdotb" class="telegram tb-block-link" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-telegram"></i> Telegram</a>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="wp-block-paragraph">O Aspire Go 15 (modelo AG15-71PT-72EL) está saindo <a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">por R$ 4.399 em até 10x sem juros com cupom de R$ 600 OFF disponível na página</a> do Mercado Livre. O laptop da Acer com chip Intel Core i7 e 16 GB de RAM DDR5 alcança o menor preço desde fevereiro de 2026, com desconto de 45% sobre o original de R$ 7.999.</p>
+
+
+
+<h2 id="h-acer-aspire-go-15-traz-16-gb-de-ram-ddr5-e-chip-intel-core-i7" class="wp-block-heading">Acer Aspire Go 15 traz 16 GB de RAM DDR5 e chip Intel Core i7</h2>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1060" height="596" src="https://files.tecnoblog.net/wp-content/uploads/2025/11/notebook-acer-aspire-go-15-1060x596.png" alt="Imagem mostra duas mulheres sentadas a uma mesa com o notebook Acer Inspire GO 15 apoiado sobre ela. A mulher da esquerda escreve em uma folha de papel, enquanto a mulher da direita sorri e olha pra ela." class="wp-image-867715" style="aspect-ratio:1.778523489932886;width:1060px;height:auto"/><figcaption class="wp-element-caption">Acer Aspire Go 15 é indicado para trabalho e estudos (imagem: Divulgação/Acer)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">O Acer Aspire Go 15 é equipado com um processador Intel Core i7 de 13ª Geração e <a href="https://tecnoblog.net/guias/melhor-notebook-16-gb/">16 GB de RAM DDR5</a>, com suporte para expansão até 32 GB. Tal combinação o torna uma ferramenta ideal para trabalho e estudos, ao dar conta de suítes de produtividade, edição de texto, planilhas e apresentações.</p>
+
+
+
+<p class="wp-block-paragraph">O SSD M.2 PCIe 4.0 de 512 GB entrega espaço interno razoável para rodar o Windows 11 Home, que oferece extensa compatibilidade, instalar programas e salvar documentos. O slot ainda suporta expansão para um modelo maior de até 1 TB para quem precisa de uma margem de folga maior.</p>
+
+
+
+<p class="wp-block-paragraph">Este notebook possui design compacto, com 2 cm de espessura quando fechado e pesando apenas 1,8 kg. O design permite transportá-lo com relativo conforto na mochila para a escola, faculdade ou trabalho sem dificuldades.</p>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" width="1000" height="563" src="https://files.tecnoblog.net/wp-content/uploads/2025/11/notebook-acer-aspire-go-15.jpg" alt="Notebook Acer Aspire Go 15" class="wp-image-865064" style="aspect-ratio:1.7761989342806395;width:1000px;height:auto"/><figcaption class="wp-element-caption">Acer Aspire Go 15 vem com uma quantidade adequada de portas (imagem: Divulgação/Acer)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">O Aspire Go 15 possui tela IPS de 15,6″ Full HD (1.920 x 1.080 pixels) com taxa de atualização de 60 Hz, ampla o suficiente para permitir abrir documentos e planilhas, navegação e consumo de conteúdo com conforto e qualidade de imagem.</p>
+
+
+
+<p class="wp-block-paragraph">O teclado possui design completo, com pad numérico e uma tecla dedicada para acionar o chatbot de IA Microsoft Copilot. A webcam de resolução HD (1.280 x 720 pixels) e com recurso de redução de ruído oferece resolução aceitável em chamadas de vídeo.</p>
+
+
+
+<p class="wp-block-paragraph">O Acer Aspire Go 15 modelo AG15-71PT-72EL (<a href="https://tecno.click/egi" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">R$ 4.399 em até 10x sem juros com cupom de R$ 600 OFF na página</a>) possui duas portas USB 3.2, uma energizada e outra com suporte para vídeo, duas USB-A 3.0, uma HDMI 2.1 e uma saída P2 para fone de ouvido/microfone.</p>
+<p><span class="aviso-etica"><a href="https://tecnoblog.net/etica/#h-links-de-afiliados">Aviso de ética:</a> ao clicar em um link de afiliado, o preço não muda para você e recebemos uma comissão.</span></p><p><a href="https://tecnoblog.net/achados/acer-aspire-go-15-com-ram-de-16-gb-despenca-45-em-ate-10x-sem-juros/">Acer Aspire Go 15 com RAM de 16 GB despenca 45% em até 10x sem juros</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://tecnoblog.net/tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/ml.png" />
+		<media:content url="https://tecnoblog.net/tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/ml.png" medium="image">
+			<media:title type="html">Mercado Livre</media:title>
+		</media:content>
+		<media:content url="https://tecnoblog.net/files.tecnoblog.net/wp-content/uploads/2026/06/acer-aspire-go-15-imagem-divulgacao-1060x596.png" medium="image" />
+		<media:content url="https://tecnoblog.net/tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/ml.png" medium="image">
+			<media:title type="html">Mercado Livre</media:title>
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2025/11/notebook-acer-aspire-go-15.png" medium="image">
+			<media:title type="html">Notebook Acer Aspire Go 15</media:title>
+			<media:description type="html">Notebook Acer Aspire Go 15 (imagem: Divulgação)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2025/11/notebook-acer-aspire-go-15-340x191.png" />
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2025/11/notebook-acer-aspire-go-15.jpg" medium="image">
+			<media:title type="html">Notebook Acer Aspire Go 15</media:title>
+			<media:description type="html">Notebook Acer Aspire Go 15 (imagem: Divulgação)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2025/11/notebook-acer-aspire-go-15-340x191.jpg" />
+		</media:content>
+	</item>
+		<item>
+		<title>Meta adia mudança nos termos após reação negativa</title>
+		<link>https://tecnoblog.net/noticias/meta-adia-mudanca-nos-termos-apos-reacao-negativa/</link>
+					<comments>https://tecnoblog.net/noticias/meta-adia-mudanca-nos-termos-apos-reacao-negativa/#respond</comments>
+		
+		<dc:creator><![CDATA[Gabriel Sérvio]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 18:55:14 +0000</pubDate>
+				<category><![CDATA[Segurança e Privacidade]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[inteligência artificial]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Regulamentação]]></category>
+		<guid isPermaLink="false">https://tecnoblog.net/?post_type=noticias&#038;p=942997</guid>
+
+					<description><![CDATA[<p>Regras criticadas devem entrar em vigor em 20 de novembro.</p>
+<p><a href="https://tecnoblog.net/noticias/meta-adia-mudanca-nos-termos-apos-reacao-negativa/">Meta adia mudança nos termos após reação negativa</a></p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6adbd485df567&quot;}" data-wp-interactive="core/image" data-wp-key="6adbd485df567" class="wp-block-image size-large wp-lightbox-container"><img decoding="async" width="1060" height="596" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://files.tecnoblog.net/wp-content/uploads/2025/02/Capa-Mark-Zuckerberg-01-1060x596.png" alt="Arte com a logomarca da Meta à esquerda e o rosto de Mark Zuckerberg à direita. Na parte inferior direita está a logomarca do Tecnoblog." class="wp-image-811594"/><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Novos termos atingem empresas que usam produtos de publicidade da Meta (ilustração: Vitor Pádua/Tecnoblog)</figcaption></figure>
+
+
+<details class="tb-resumo tb-callout padrao">
+    <summary class="tb-callout-titulo">Resumo</summary>
+    <div class="tb-resumo-topicos tb-callout-texto"><ul>
+<li>A Meta adiou de 30 de outubro para 20 de novembro a chegada de seus novos termos comerciais.</li>
+<li>Anunciantes afirmam que regras poderiam permitir coleta ampla de conteúdo para produtos de IA.</li>
+<li>A empresa nega mudança em suas práticas de rastreamento.</li>
+</ul>
+</div>
+</details>
+
+
+
+<p class="wp-block-paragraph">A Meta adiou seus novos termos comerciais após críticas de anunciantes e entidades. O texto permitiu interpretações de que abriria caminho para a coleta de conteúdo para treinar IAs <a href="https://tecnoblog.net/noticias/meta-pode-coletar-noticias-para-treinar-ia-sem-pagar-por-licencas/">sem a necessidade de negociar licenças com seus produtores</a>. As regras, que começariam a valer em 30 de outubro, agora estão previstas para entrar em vigor em 20 de novembro.</p>
+
+
+
+<p class="wp-block-paragraph">Em nota<strong> enviada ao Tecnoblog</strong>, a empresa afirma que decidiu ampliar o prazo para responder às preocupações levantadas por parceiros e esclarecer melhor como seus rastreadores funcionam.</p>
+
+
+
+<h2 id="h-por-que-as-novas-regras-foram-tao-criticadas" class="wp-block-heading">Por que as novas regras foram tão criticadas?</h2>
+
+
+
+<p class="wp-block-paragraph">A primeira versão das novas regras dizia que a Meta poderia usar ferramentas automatizadas, como rastreadores e bots, para acessar páginas e conteúdos de contas empresariais. O texto também afirmava que esses materiais poderiam ser usados para desenvolver, melhorar, pesquisar e treinar produtos da empresa. </p>
+
+
+
+<p class="wp-block-paragraph">Especialistas alertaram que isso poderia dar à Meta uma base para coletar conteúdo de sites ligados a empresas que usam suas plataformas. Depois das críticas, a companhia modificou os termos e retirou referências explícitas ao treinamento de produtos. A alteração, porém, não encerrou as preocupações. </p>
+
+
+
+<p class="wp-block-paragraph">A nova versão ainda <a href="https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns" target="_blank" class="icon-external">parece permitir a coleta de conteúdo</a> de sites associados a contas comerciais para uso no desenvolvimento de produtos da Meta, que podem incluir ferramentas de IA.</p>
+
+
+
+<p class="wp-block-paragraph">A pressão aumentou para que autoridades antitruste da União Europeia e do Reino Unido suspendessem a chegada da mudança. Segundo a <em>Reuters</em>, um dos argumentos é que empresas dependentes de Facebook, Instagram e outros serviços <a href="https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/" target="_blank" rel="noreferrer noopener" class="icon-external">poderiam acabar concedendo à Meta</a> direitos sobre conteúdos disponíveis em seus sites.</p>
+
+
+
+<p class="wp-block-paragraph">Nos Estados Unidos, a News/Media Alliance, entidade que representa mais de 2 mil jornais, revistas e veículos digitais, afirma que as regras podem <a href="https://www.newsmediaalliance.org/letter-to-meta-demanding-withdrawal-of-new-terms-of-use/" target="_blank" class="icon-external" rel="nofollow noopener">prejudicar o mercado de licenciamento de conteúdo</a> e pede a retirada das cláusulas.</p>
+
+
+
+<h2 id="h-o-que-diz-a-meta" class="wp-block-heading">O que diz a Meta?</h2>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6adbd485dfdb1&quot;}" data-wp-interactive="core/image" data-wp-key="6adbd485dfdb1" class="wp-block-image size-large wp-lightbox-container"><img decoding="async" width="1060" height="596" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://files.tecnoblog.net/wp-content/uploads/2022/11/meta-capa-2-nov-2022-1060x596.png" alt="Ilustração com logo da Meta ao centro. Ao fundo, a imagem de duas mãos com os dedos indicadores se tocando. Na parte inferior direita, está o logo do Tecnoblog." class="wp-image-656219"/><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Meta afirma que mudança não altera a forma como seus rastreadores acessam sites (ilustração: Vitor Pádua/Tecnoblog)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">A Meta contesta a interpretação de que os novos termos ampliam seus direitos sobre conteúdos publicados na internet e afirma que as regras não mudam como seus rastreadores acessam sites. Ao <strong>Tecnoblog</strong>, a empresa disse que o adiamento servirá para esclarecer as mudanças.</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Estamos prorrogando a data de entrada em vigor dos nossos termos atualizados para 20 de novembro, para que tenhamos mais tempo para esclarecer aos nossos parceiros e stakeholders o que muda e o que não muda&#8221;, afirma. </p>
+
+
+
+<p class="wp-block-paragraph">A plataforma também diz que os &#8220;proprietários de conteúdo continuarão podendo usar o robots.txt para sinalizar suas preferências.&#8221; O robots.txt é um arquivo usado por sites para indicar quais áreas podem ou não ser acessadas por rastreadores automatizados. </p>
+
+
+
+<p class="wp-block-paragraph">O adiamento não significa que a empresa tenha desistido dos novos termos. Até o momento, a Meta apenas transferiu a entrada em vigor para 20 de novembro. As três semanas adicionais podem abrir espaço para novos ajustes enquanto a companhia responde às críticas levantadas.</p>
+<p><a href="https://tecnoblog.net/noticias/meta-adia-mudanca-nos-termos-apos-reacao-negativa/">Meta adia mudança nos termos após reação negativa</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2025/02/Capa-Mark-Zuckerberg-01-340x191.png" />
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2025/02/Capa-Mark-Zuckerberg-01.png" medium="image">
+			<media:title type="html">Capa de Mark Zuckerberg-01</media:title>
+			<media:description type="html">Mark Zuckerberg é fundador e CEO da Meta (ilustração: Vitor Pádua/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2025/02/Capa-Mark-Zuckerberg-01-340x191.png" />
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2022/11/meta-capa-2-nov-2022.png" medium="image">
+			<media:title type="html">Meta-Capa-2-Nov-2022</media:title>
+			<media:description type="html">Meta (ilustração: Vitor Pádua/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2022/11/meta-capa-2-nov-2022-340x191.png" />
+		</media:content>
+	</item>
+		<item>
+		<title>iPhone 18 Pro recebe R$ 3 mil de desconto com Amazon Prime</title>
+		<link>https://tecnoblog.net/achados/iphone-18-pro-recebe-r-3-mil-de-desconto-com-amazon-prime/</link>
+					<comments>https://tecnoblog.net/achados/iphone-18-pro-recebe-r-3-mil-de-desconto-com-amazon-prime/#comments</comments>
+		
+		<dc:creator><![CDATA[Ronaldo Gogoni]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 18:52:36 +0000</pubDate>
+				<category><![CDATA[Celulares]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Amazon Prime]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[iPhone 18 Pro]]></category>
+		<category><![CDATA[Pix]]></category>
+		<guid isPermaLink="false">https://tecnoblog.net/?post_type=achados&#038;p=943041</guid>
+
+					<description><![CDATA[<p>iPhone 18 Pro (256 GB) tem câmera com abertura variável e chip A20 Pro de alto desempenho; novo premium da Apple recebe desconto de 26% no Pix com cupom exclusivo</p>
+<p><a href="https://tecnoblog.net/achados/iphone-18-pro-recebe-r-3-mil-de-desconto-com-amazon-prime/">iPhone 18 Pro recebe R$ 3 mil de desconto com Amazon Prime</a></p>
+]]></description>
+										<content:encoded><![CDATA[<div class="widget-produto">
+            <div class="oferta " style="position: relative;">
+            <div class="widget-header">
+                        <div class="btns" >
+                                <span class="cupom_container" data-text="" onclick="handle_redirect(this)">DEVOLTA1000</span>
+                            
+            <a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link amz" target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                    <span class="logo"><img decoding="async" src="https://tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/amz.png" alt="Amazon"></span>
+                                <span class="discount">26% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                                            <div class="imagem">
+                        <a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow"><img decoding="async" src="https://files.tecnoblog.net/wp-content/uploads/2026/10/apple-iphone-18-pro-max-back-achados-1060x596.jpg" ></a>
+                    </div>
+                
+                <div class="widget-info-container">
+                    <div class="widget-info">
+                        <a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="title tb-block-link" target="_blank" rel="sponsored nofollow">iPhone 18 Pro 256 GB</a>
+                        <a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="price tb-block-link" target="_blank" rel="sponsored nofollow">R$ 8.900,95</a>
+                    </div>
+                                            <div class="discount"><s>R$ 11.999,00</s><b>26% OFF</b></div>
+                                    </div>
+
+                                    <hr class="tb-divider"></hr>
+
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <span>Prós</span>
+                            <ul>
+                                                                        <li>Câmera wide com abertura variável</li>
+                                                                            <li>Tela de 120 Hz e brilho de 3.000 nits</li>
+                                                                            <li>Chip A20 Pro de 2 nm bem potente</li>
+                                                                            <li>Carregamento com fio de 60 W</li>
+                                                                                                   
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <span>Contras</span>
+                            <ul>
+                                                                        <li>Relatos de bugs por usuários</li>
+                                                                            <li>Sem carregador na caixa</li>
+                                                                                                </ul>
+                        </div>
+
+                    </div>
+                
+                                    <div class="tags">
+                                                    <span class="pix default">PIX</span>
+                                                    <span class="cupom default">Cupom</span>
+                                                    <span class="exclusivo-amazon-prime ">Exclusivo Amazon Prime</span>
+                                            </div>
+                            </div>
+
+            
+                    <div class="btns" >
+                                <span class="cupom_container" data-text="" onclick="handle_redirect(this)">DEVOLTA1000</span>
+                            
+            <a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow" class="link tb-block-link amz" target="_blank" rel="sponsored nofollow noopener noreferrer">
+                                    <span class="logo"><img decoding="async" src="https://tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/amz.png" alt="Amazon"></span>
+                                <span class="discount">26% OFF</span>                <span class="text">Ver preço</span>
+            </a>
+        </div>
+                </div>
+    
+    <div class="widget-footer ">
+        <div>
+        Participe dos canais de ofertas do Achados do TB
+        </div>
+        <div class="social">
+            <a href="https://tecnoblog.net/zap" class="whatsapp" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-whatsapp"></i> WhatsApp</a>
+            <a href="https://t.me/achadosdotb" class="telegram tb-block-link" target="_blank" rel="nofollow noopener noreferrer"><i class="tb-icons tb-telegram"></i> Telegram</a>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="wp-block-paragraph">O iPhone 18 Pro de 256 GB está saindo <a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">por R$ 8.900 no Pix com cupom DEVOLTA1000 exclusivo para assinantes</a> do Amazon Prime. O novo smartphone premium da Apple, com chip A20 Pro e câmera principal de 48 MP com abertura variável, recebe um interessante desconto de 26% sobre o preço original de R$ 11.499.</p>
+
+
+
+<h2 id="h-iphone-18-pro-traz-chip-a20-pro-e-camera-com-abertura-variavel" class="wp-block-heading">iPhone 18 Pro traz chip A20 Pro e câmera com abertura variável </h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="NOVO iPhone 18 Pro e Pro Max: o que mudou?" width="500" height="281" src="https://www.youtube.com/embed/kOdqE4-M4Sc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p class="wp-block-paragraph">O kit principal de câmeras <a href="https://tecnoblog.net/noticias/venda-dos-novos-iphone-18-pro-e-pro-max-comeca-hoje-no-brasil/">do recém-lançado iPhone 18 Pro</a> traz uma wide com <a href="https://tecnoblog.net/responde/o-que-e-estabilizacao-optica-de-imagem-ois/">OIS</a> e a inédita <a href="https://tecnoblog.net/responde/quanto-maior-a-abertura-da-lente-da-camera-melhor-ela-e/">abertura variável do diafragma</a> em celulares da maçã, uma ultrawide de 120º e uma telefoto com <a href="https://tecnoblog.net/responde/zoom-optico-vs-zoom-digital-qual-a-diferenca/">zoom óptico</a> de 4x, todas de 48 MP. A Center Stage de 18 MP tira selfies na horizontal com o celular em pé. Todas filmam em 4K.</p>
+
+
+
+<p class="wp-block-paragraph">Seu novo chip A20 Pro de 2 nanômetros e os 12 GB de RAM suportam alto desempenho em apps pesados e funções do Apple Intelligence, sendo 40% mais poderoso do que a geração anterior, segundo a Apple. Os 256 GB de armazenamento disponibilizam espaço interno adequado para guardar fotos e vídeos.</p>
+
+
+
+<p class="wp-block-paragraph">A tela <a href="https://tecnoblog.net/responde/o-que-e-retina-display/">Super Retina XDR OLED</a> de 6,3″ possui <a href="https://tecnoblog.net/responde/o-que-e-taxa-de-atualizacao-de-tela/">ProMotion</a> de 120 Hz e brilho de até 3.000 nits, oferecendo reprodução de imagens com cores vibrantes e alta fluidez nas transições em apps e games, além de ter visibilidade garantida em qualquer lugar.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="4000" height="2252" src="https://files.tecnoblog.net/wp-content/uploads/2026/09/20260916_175237.jpg" alt="Imagem mostra um iPhone sendo segurado em uma mão. A tela está virada para a câmera, exibindo um relógio com o horário 17:52. Na parte inferior direita, a marca d'água do &quot;tecnoblog&quot; é visível." class="wp-image-934093"/><figcaption class="wp-element-caption">Tela do iPhone 18 Pro Max possui alta resolução e muita fluidez (foto: Thássius Veloso/Tecnoblog)</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">O corpo de alumínio do iPhone 18 Pro é revestido pelos vidros <a href="https://tecnoblog.net/responde/o-que-e-ceramic-shield-saiba-a-diferenca-para-o-gorilla-glass/">Ceramic Shield 2</a> (tela) e Ceramic Shield (traseira), resistentes a pancadas e arranhões. A certificação IP68 confere proteção extra em cenários como poeira intensa e mergulhos acidentais.</p>
+
+
+
+<p class="wp-block-paragraph">Sua bateria de 4.056 mAh resiste a 36 horas de reprodução de vídeo, segundo a fabricante. O suporte ao MagSafe permite receber uma carga de 50% em 15 minutos via USB-C com um carregador de 60 W (não incluso), ideal para usuários com agendas corridas.</p>
+
+
+
+<p class="wp-block-paragraph">O iPhone 18 Pro de 256 GB (<a href="https://tecno.click/9hc" target="_blank" rel="sponsored nofollow" target="_blank" rel="sponsored nofollow">R$ 8.900 no Pix com cupom DEVOLTA1000 exclusivo Amazon Prime</a>) roda iOS 27 e deve receber ao menos cinco updates do sistema operacional. O celular premium da Apple possui conectividade 5G, <a href="https://tecnoblog.net/responde/o-que-e-wi-fi-7-802-11-be/">Wi-Fi 7</a>, <a href="https://tecnoblog.net/responde/o-que-e-bluetooth/">Bluetooth 6.0</a>, NFC e banda ultralarga (UWB) e suporta eSIM.</p>
+<p><span class="aviso-etica"><a href="https://tecnoblog.net/etica/#h-links-de-afiliados">Aviso de ética:</a> ao clicar em um link de afiliado, o preço não muda para você e recebemos uma comissão.</span></p><p><a href="https://tecnoblog.net/achados/iphone-18-pro-recebe-r-3-mil-de-desconto-com-amazon-prime/">iPhone 18 Pro recebe R$ 3 mil de desconto com Amazon Prime</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://www.youtube.com/embed/kOdqE4-M4Sc" duration="88">
+			<media:player url="https://www.youtube.com/embed/kOdqE4-M4Sc" />
+			<media:title type="html">iPhone 18 Pro recebe R$ 3 mil de desconto com Amazon Prime &#38;#8226; Tecnoblog</media:title>
+			<media:description type="html">iPhone 18 Pro (256 GB) tem câmera com abertura variável e chip A20 Pro de alto desempenho; novo premium da Apple recebe desconto de 26% no Pix com cupom exclusivo</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/10/kodqe4-m4sc.jpg" />
+			<media:keywords>Amazon,Amazon Prime,Apple,iPhone 18 Pro,Pix</media:keywords>
+		</media:content>
+		<media:thumbnail url="https://tecnoblog.net/tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/amz.png" />
+		<media:content url="https://tecnoblog.net/tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/amz.png" medium="image">
+			<media:title type="html">Amazon</media:title>
+		</media:content>
+		<media:content url="https://tecnoblog.net/files.tecnoblog.net/wp-content/uploads/2026/10/apple-iphone-18-pro-max-back-achados-1060x596.jpg" medium="image" />
+		<media:content url="https://tecnoblog.net/tecnoblog.net/wp-content/themes/tb/blocks/toc-oferta/img/amz.png" medium="image">
+			<media:title type="html">Amazon</media:title>
+		</media:content>
+		<media:content url="https://files.tecnoblog.net/wp-content/uploads/2026/09/20260916_175237.jpg" medium="image">
+			<media:title type="html">Tela do iPhone 18 Pro Max (foto: Thássius Veloso/Tecnoblog)</media:title>
+			<media:description type="html">Tela do iPhone 18 Pro Max (foto: Thássius Veloso/Tecnoblog)</media:description>
+			<media:thumbnail url="https://files.tecnoblog.net/wp-content/uploads/2026/09/20260916_175237-340x191.jpg" />
+		</media:content>
+	</item>
+</channel>
+</rss>

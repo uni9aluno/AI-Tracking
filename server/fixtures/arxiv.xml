@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pOwiysN8m3gJHdbheeYdMGP2rQA</id>
+  <title>arXiv Query: search_query=cat:cs.AI&amp;id_list=&amp;start=0&amp;max_results=6</title>
+  <updated>2026-10-25T02:49:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=cat:cs.AI&amp;start=0&amp;max_results=6&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>6</opensearch:itemsPerPage>
+  <opensearch:totalResults>208821</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.31667v1</id>
+    <title>Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning</title>
+    <updated>2026-10-22T17:59:48Z</updated>
+    <link href="https://arxiv.org/abs/2610.31667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.31667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based methods assign a score to each partial solution and discard those predicted to ultimately lead to an incorrect final solution, while diversity-based methods select partial solutions that follow different reasoning trajectories and are therefore likely to cover different final solutions. The tension between these two objectives is an instance of exploration versus exploitation, yet little to no prior work on pruning exposes this trade-off directly, let alone optimizes it. In this paper, we introduce a pruning procedure that addresses this trade-off directly by optimizing pass@$k$ over the selected solution pool. In particular, it chooses the pool to maximize the probability that at least one of its partial solutions, when continued to completion, yields a correct answer. Because this objective simultaneously rewards high-quality partial solutions and penalizes redundancy among them, quality and diversity are naturally balanced by the criterion itself rather than through separate ad-hoc design choices. On eight open-weight reasoning models, our method outperforms existing quality-based and diversity-based pruning strategies. The gains are particularly pronounced when the pruning procedure keeps a moderate number of partial solutions for continued generation, highlighting the value of directly balancing quality and diversity during pruning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T17:59:48Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mahdi Salmani</name>
+    </author>
+    <author>
+      <name>Adel Javanmard</name>
+    </author>
+    <author>
+      <name>Devansh Gupta</name>
+    </author>
+    <author>
+      <name>Meisam Razaviyayn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.31657v1</id>
+    <title>Cost-Aware Abstention for LLM-Based IT Ticket Classification</title>
+    <updated>2026-10-22T17:58:52Z</updated>
+    <link href="https://arxiv.org/abs/2610.31657v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.31657v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_triage, c_wrong) = (0, 1, 5), TF-IDF with logistic regression and a threshold of 0.60 selected on calibration reduces test cost from 0.763 to 0.472, a 38.1% relative reduction (paired ratio-bootstrap 95% CI [35.7%, 40.4%]), while lowering wrong routes from 15.3% to 3.5%. Frozen calibration-selected policies also beat both always-route and always-defer on held-out test data in 14 of 16 settings in a post-hoc cost-parameter analysis. The strongest prompted configuration reaches 0.477 accuracy on a stratified 1,000-ticket test subset, versus 0.879 for fine-tuned DistilBERT on the same tickets. Isotonic lowers expected calibration error without reliably improving discrimination: GPT-4o-mini few-shot has one confidence value before and after recalibration and correctness AUROC 0.500. We therefore report correctness AUROC and tie-aware risk-coverage area alongside ECE. At the analytically derived break-even probability 0.80, seven prompted configurations defer all tickets; Haiku few-shot routes only 19/1,000. An LLM-only agreement control and margin/entropy rejection baselines further separate calibration from discrimination. The findings are scoped to this dataset, prompt design, model endpoints, and illustrative costs; the work is an evaluation framework, not a new abstention algorithm or universal deployment certification.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T17:58:52Z</published>
+    <arxiv:comment>Accepted at the 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026). 9 pages, 5 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sachin Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.31656v1</id>
+    <title>METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning</title>
+    <updated>2026-10-22T17:58:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.31656v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.31656v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation phase into two temporal scales: a causal neural memory performs fine-grained within-episode adaptation with linear sequence complexity, while compact episode-level summaries support long-range cross-episode task inference without attending over the full interaction history. Moreover, equipping agents with neural memory provides sufficient expressive capacity and test-time training capability, enabling effective adaptation to unseen held-out tasks and task families at meta-test time. On unseen held-out Meta-World ML10/45 test environments, METTA achieves a success rate over $50\%$ while maintaining a low training budget and short wall-clock time. On long-context sparse-reward PointMaze tasks, it outperforms transformer-based baselines by exhibiting more structured exploration behavior. These results show that METTA provides an efficient path toward more adaptive and scalable long-context meta-RL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T17:58:27Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ali Najar</name>
+    </author>
+    <author>
+      <name>Hosein Hasani</name>
+    </author>
+    <author>
+      <name>Amir Kooshan Fattah</name>
+    </author>
+    <author>
+      <name>Yasamin Rajabi</name>
+    </author>
+    <author>
+      <name>Mahdieh Soleymani Baghshah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.31650v1</id>
+    <title>EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence</title>
+    <updated>2026-10-22T17:57:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.31650v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.31650v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. By systematically suppressing critical facts, the benchmark measures unsafe execution under critical evidence omission and determines the minimum observed failure cardinality, including failures with full evidence and cases with no observed failure after exhaustive testing. An independent audit tool tests whether agents seek missing facts and then withhold prohibited actions while completing permissible tasks. The benchmark reveals substantial variation across the ten models in omission robustness, evidence acquisition, and appropriate action. Resistance to missing evidence does not necessarily translate into useful recovery. Recovery access reduces unsafe execution for all ten models, but agents differ in whether they actively obtain the missing facts and use them to act appropriately in both worlds.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T17:57:04Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qijin Zhang</name>
+    </author>
+    <author>
+      <name>Hanzhen Wang</name>
+    </author>
+    <author>
+      <name>Yuehan Zhao</name>
+    </author>
+    <author>
+      <name>Haoyu Dai</name>
+    </author>
+    <author>
+      <name>Yao Shu</name>
+    </author>
+    <author>
+      <name>Zhongxiang Dai</name>
+    </author>
+    <author>
+      <name>Shuang Qiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.31646v1</id>
+    <title>Low-Bit N-Gram Embeddings for Language Models</title>
+    <updated>2026-10-22T17:56:13Z</updated>
+    <link href="https://arxiv.org/abs/2610.31646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.31646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We therefore investigate whether this memory cost can be reduced while preserving the performance improvement that the tables provide. We propose storing n-gram embeddings at low precision and systematically investigate different quantization methods and bit allocations across tables. Across nanochat-, Llama-, and GPT-2-family models trained from scratch, four-bit tables save approximately 75% of table memory while preserving more than 99% of the validation-loss improvement from adding the tables. Using fewer bits leads to a larger drop in performance, although we find that a short fine-tuning phase recovers a significant part of this loss. In addition, reinvesting the saved memory in larger tables can improve performance beyond that of the original full-precision tables while still using less memory. These table memory savings also extend to large existing models: on DeepSeek-V4.1-Flash and Qwen3.8-Flash-Next, low-bit tables save 47-55% of table memory, with perplexity increases of less than 1.2% and largely preserved downstream task performance. These findings establish low-bit precision as a practical way to reduce the memory requirements of n-gram embeddings and use the saved capacity to improve model performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T17:56:13Z</published>
+    <arxiv:comment>24 pages, 10 figures, 10 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Stephen Chung</name>
+    </author>
+    <author>
+      <name>Wenyu Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.31639v1</id>
+    <title>Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation</title>
+    <updated>2026-10-22T17:52:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.31639v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.31639v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step to attend to the full context, enabling the model to derive answers through direct lookup while generating plausible-sounding but post-hoc justifications. We introduce CausalCoT, an inference framework that enforces causal transparency by decomposing problems into a directed acyclic graph of atomic sub-questions, evaluating each node in an isolated context containing only its direct causal parents. This Markovian structure removes attention pathways to non-parent content, making downstream predictions sensitive to local reasoning rather than global context leakage. Across a diverse suite of reasoning benchmarks, CausalCoT preserves competitive predictive performance while improving explanation faithfulness, increasing causal sensitivity of intermediate reasoning steps by an average of 12 and up to 21 percentage points over the strongest baseline. The structured dependency graph additionally enables test-time interventions in which local corrections propagate predictably through downstream reasoning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T17:52:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gabriele Dominici</name>
+    </author>
+    <author>
+      <name>Teague McMillan</name>
+    </author>
+    <author>
+      <name>Fazl Barez</name>
+    </author>
+    <author>
+      <name>Marc Langheinrich</name>
+    </author>
+    <author>
+      <name>Martin Gjoreski</name>
+    </author>
+  </entry>
+</feed>

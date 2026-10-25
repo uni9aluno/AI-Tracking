@@ -1,0 +1,407 @@
+[
+ {
+  "paper": {
+   "id": "2610.30043",
+   "authors": [
+    {
+     "_id": "6ad986f93f2bb52eb8d6eb9b",
+     "user": {
+      "_id": "6843ff3a70fe0620f375f8c1",
+      "avatarUrl": "/avatars/d3b4a9a039c412d5f8db81c481582ed6.svg",
+      "isPro": false,
+      "fullname": "xuyicheng-zju",
+      "user": "xuyicheng-zju",
+      "type": "user",
+      "name": "xuyicheng-zju"
+     },
+     "name": "Yicheng Xu",
+     "status": "claimed_verified",
+     "statusLastChangedAt": "2026-10-22T13:05:24.914Z",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eb9c",
+     "name": "Zhikai Xu",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eb9d",
+     "name": "Ziyuan Chen",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eb9e",
+     "name": "Yuhang Dong",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eb9f",
+     "name": "Tao Zhang",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eba0",
+     "name": "Zhucun Xue",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eba1",
+     "name": "Yong Liu",
+     "hidden": false
+    },
+    {
+     "_id": "6ad986f93f2bb52eb8d6eba2",
+     "name": "Jiangning Zhang",
+     "hidden": false
+    }
+   ],
+   "mediaUrls": [
+    "https://cdn-uploads.huggingface.co/production/uploads/6843ff3a70fe0620f375f8c1/SXZIyhURcRrCbbZUf5sj4.jpeg"
+   ],
+   "publishedAt": "2026-10-21T00:00:00.000Z",
+   "submittedOnDailyAt": "2026-10-23T00:00:00.000Z",
+   "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+   "submittedOnDailyBy": {
+    "_id": "6843ff3a70fe0620f375f8c1",
+    "avatarUrl": "/avatars/d3b4a9a039c412d5f8db81c481582ed6.svg",
+    "isPro": false,
+    "fullname": "xuyicheng-zju",
+    "user": "xuyicheng-zju",
+    "type": "user",
+    "name": "xuyicheng-zju"
+   },
+   "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack framework for physically and socially grounded long-horizon embodied agents. TARSphere-Infra runs robot policies in a physics simulator with embodied NPCs and constrained dialogue. An event-driven finite-state machine (FSM) uses completed actions and delivered information to update task states and evaluate outcomes. TARSphere-Harness, its embodied brain harness, lets a frozen multimodal large language model (MLLM) act through multi-level executable skills, using observations, hierarchical memory, and execution feedback to revise its decisions. On this foundation, agent-in-the-loop curation aligns task semantics, causal dependencies, and scene geometry to construct TARSphere-Bench: 360 episodes across 30 indoor scenes. Five paired conditions assess perceptual robustness, disruption adaptation, task update, human coordination, and intent understanding for navigate-and-report and fetch-and-deliver tasks. Our evaluation of 8 MLLMs shows that general-purpose models can outperform embodied models, while task updates and human interaction remain difficult. Frequent collisions and falls further motivate evaluating execution safety alongside task success, even with a shared action interface and decision budget.",
+   "upvotes": 8,
+   "discussionId": "6ad986f93f2bb52eb8d6eba3",
+   "projectPage": "https://xuyicheng-zju.github.io/TARSphere/",
+   "githubRepo": "https://github.com/xuyicheng-zju/TARSphere",
+   "githubRepoAddedBy": "user",
+   "ai_summary": "TARSphere is a robot framework that integrates physics simulation, embodied NPCs, and a frozen multimodal language model to evaluate long-horizon embodied agents across diverse indoor tasks and social conditions.",
+   "ai_keywords": [
+    "finite-state machine",
+    "multimodal large language model",
+    "MLLM",
+    "hierarchical memory",
+    "executable skills",
+    "embodied agents",
+    "physics simulator",
+    "embodied NPCs"
+   ],
+   "ai_summary_model": "thinkingmachines/Inkling-Small",
+   "githubStars": 19
+  },
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+  "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack framework for physically and socially grounded long-horizon embodied agents. TARSphere-Infra runs robot policies in a physics simulator with embodied NPCs and constrained dialogue. An event-driven finite-state machine (FSM) uses completed actions and delivered information to update task states and evaluate outcomes. TARSphere-Harness, its embodied brain harness, lets a frozen multimodal large language model (MLLM) act through multi-level executable skills, using observations, hierarchical memory, and execution feedback to revise its decisions. On this foundation, agent-in-the-loop curation aligns task semantics, causal dependencies, and scene geometry to construct TARSphere-Bench: 360 episodes across 30 indoor scenes. Five paired conditions assess perceptual robustness, disruption adaptation, task update, human coordination, and intent understanding for navigate-and-report and fetch-and-deliver tasks. Our evaluation of 8 MLLMs shows that general-purpose models can outperform embodied models, while task updates and human interaction remain difficult. Frequent collisions and falls further motivate evaluating execution safety alongside task success, even with a shared action interface and decision budget.",
+  "mediaUrls": [
+   "https://cdn-uploads.huggingface.co/production/uploads/6843ff3a70fe0620f375f8c1/SXZIyhURcRrCbbZUf5sj4.jpeg"
+  ],
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30043.png",
+  "numComments": 2,
+  "submittedBy": {
+   "_id": "6843ff3a70fe0620f375f8c1",
+   "avatarUrl": "/avatars/d3b4a9a039c412d5f8db81c481582ed6.svg",
+   "fullname": "xuyicheng-zju",
+   "name": "xuyicheng-zju",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2610.22722",
+   "authors": [
+    {
+     "_id": "6ad699bd774b2a8cb5c7d6d1",
+     "user": {
+      "_id": "641f77c0863b87326f49a24f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641f77c0863b87326f49a24f/0lmANHmUFcRvSUgVgCeM-.png",
+      "isPro": false,
+      "fullname": "Georgios Politis",
+      "user": "gpolitis",
+      "type": "user",
+      "name": "gpolitis"
+     },
+     "name": "Georgios Politis",
+     "status": "claimed_verified",
+     "statusLastChangedAt": "2026-10-24T08:45:04.553Z",
+     "hidden": false
+    },
+    {
+     "_id": "6ad699bd774b2a8cb5c7d6d2",
+     "name": "Evangelos Pappas",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-10-15T00:00:00.000Z",
+   "submittedOnDailyAt": "2026-10-23T00:00:00.000Z",
+   "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+   "submittedOnDailyBy": {
+    "_id": "641f77c0863b87326f49a24f",
+    "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641f77c0863b87326f49a24f/0lmANHmUFcRvSUgVgCeM-.png",
+    "isPro": false,
+    "fullname": "Georgios Politis",
+    "user": "gpolitis",
+    "type": "user",
+    "name": "gpolitis"
+   },
+   "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We present LLM-Attacker, a framework that records these choices and lets researchers check, compare and extend an evaluation. Compatible attacks reuse recorded messages, and their predictions are saved for independent scoring. The scoring rule requires a linked undefended reference before a defence can pass. Reports also identify attacks that remain untested. In a controlled GPT-2 experiment, adding gradients returned during training increased token recovery from 94.20% to 97.38% and exact-document recovery from 13.71% to 37.77%. The 95% interval for the token gain lay above the two-percentage-point threshold fixed before testing. This experiment is shared with a companion study; here, it tests how the evaluation responds to a change in attacker access. Further studies measure how corpus choice and compression defences affect recovery, compare an adapted published attack with its reference implementation, and test the measurement code. The framework reports implementation checks separately from measured attack effectiveness. Each privacy claim should state the attacker, dataset and scoring rule, report its controls and identify untested attacks.",
+   "upvotes": 9,
+   "discussionId": "6ad699be774b2a8cb5c7d6d3",
+   "projectPage": "https://setloop.io/llm-attacker",
+   "githubRepo": "https://github.com/setloop-io/LLM-Attack-Suite",
+   "githubRepoAddedBy": "user",
+   "ai_summary": "LLM-Attacker standardizes privacy evaluations for split language models by recording attacker configurations, enabling comparable scoring of reconstruction attacks, and requiring linked undefended baselines for defense claims.",
+   "ai_keywords": [
+    "split language models",
+    "intermediate representations",
+    "LLM-Attacker",
+    "token recovery",
+    "exact-document recovery",
+    "gradients",
+    "compression defenses",
+    "privacy evaluation"
+   ],
+   "ai_summary_model": "thinkingmachines/Inkling-Small",
+   "githubStars": 1,
+   "organization": {
+    "_id": "6aa001b46ab3ddac3fcc9177",
+    "name": "Setloop",
+    "fullname": "Setloop",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/641f77c0863b87326f49a24f/l8UIXIEloO6cxPWimFXT4.png"
+   }
+  },
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+  "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We present LLM-Attacker, a framework that records these choices and lets researchers check, compare and extend an evaluation. Compatible attacks reuse recorded messages, and their predictions are saved for independent scoring. The scoring rule requires a linked undefended reference before a defence can pass. Reports also identify attacks that remain untested. In a controlled GPT-2 experiment, adding gradients returned during training increased token recovery from 94.20% to 97.38% and exact-document recovery from 13.71% to 37.77%. The 95% interval for the token gain lay above the two-percentage-point threshold fixed before testing. This experiment is shared with a companion study; here, it tests how the evaluation responds to a change in attacker access. Further studies measure how corpus choice and compression defences affect recovery, compare an adapted published attack with its reference implementation, and test the measurement code. The framework reports implementation checks separately from measured attack effectiveness. Each privacy claim should state the attacker, dataset and scoring rule, report its controls and identify untested attacks.",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22722.png",
+  "numComments": 2,
+  "submittedBy": {
+   "_id": "641f77c0863b87326f49a24f",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641f77c0863b87326f49a24f/0lmANHmUFcRvSUgVgCeM-.png",
+   "fullname": "Georgios Politis",
+   "name": "gpolitis",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 3,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6aa001b46ab3ddac3fcc9177",
+   "name": "Setloop",
+   "fullname": "Setloop",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/641f77c0863b87326f49a24f/l8UIXIEloO6cxPWimFXT4.png"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2610.04184",
+   "authors": [
+    {
+     "_id": "6adbf47e121a70fc68345943",
+     "user": {
+      "_id": "648d2e2e514bf0ce32ba729f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648d2e2e514bf0ce32ba729f/VPL1rehLxkvixz5oRD6u_.jpeg",
+      "isPro": false,
+      "fullname": "Yaolun Zhang",
+      "user": "Mercury7353",
+      "type": "user",
+      "name": "Mercury7353"
+     },
+     "name": "Yaolun Zhang",
+     "status": "claimed_verified",
+     "statusLastChangedAt": "2026-10-24T00:45:05.042Z",
+     "hidden": false
+    },
+    {
+     "_id": "6adbf47e121a70fc68345944",
+     "name": "Tianyi Xu",
+     "hidden": false
+    },
+    {
+     "_id": "6adbf47e121a70fc68345945",
+     "name": "Yujie Zhao",
+     "hidden": false
+    },
+    {
+     "_id": "6adbf47e121a70fc68345946",
+     "name": "Jishen Zhao",
+     "hidden": false
+    },
+    {
+     "_id": "6adbf47e121a70fc68345947",
+     "name": "Qingyun Wu",
+     "hidden": false
+    },
+    {
+     "_id": "6adbf47e121a70fc68345948",
+     "name": "Huazheng Wang",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-10-16T00:00:00.000Z",
+   "submittedOnDailyAt": "2026-10-23T00:00:00.000Z",
+   "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+   "submittedOnDailyBy": {
+    "_id": "648d2e2e514bf0ce32ba729f",
+    "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648d2e2e514bf0ce32ba729f/VPL1rehLxkvixz5oRD6u_.jpeg",
+    "isPro": false,
+    "fullname": "Yaolun Zhang",
+    "user": "Mercury7353",
+    "type": "user",
+    "name": "Mercury7353"
+   },
+   "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research. Given target materials, development references, candidate APIs, and fixed time and API budgets, an agent called the researcher selects or synthesizes tasks, implements graders, and revises them in pilot tests before freezing an executable evaluator for coding, co-work, and reasoning. We study 9 researchers and 13 candidate models and compare each frozen evaluator with 14 target benchmarks on score concordance and pairwise agreement. The best evaluators order about 75\\% of candidate pairs as the targets do, below the 91\\% ceiling set by disagreements among the targets. No researcher leads on every metric, and the best evaluator on development targets is not the best on sealed targets hidden from the researcher. A human-designed sample of public tasks remains a strong baseline, and the evaluator with the lowest recorded execution cost attains the highest pairwise agreement. Agents repair tasks and graders through pilot feedback, yet their evaluators can still truncate answers, exhaust the evaluation budget, or let a few questions dominate a domain score.",
+   "upvotes": 8,
+   "discussionId": "6adbf47e121a70fc68345949",
+   "projectPage": "https://mercury7353.github.io/self-evaluation-bench/blog/when-ai-agents-design-the-test.html",
+   "githubRepo": "https://github.com/Mercury7353/self-evaluation-bench",
+   "githubRepoAddedBy": "user",
+   "ai_summary": "AI agents can automate benchmark design to reduce evaluation costs, but their generated evaluators still fall short of target agreement and suffer from budget exhaustion and score dominance issues.",
+   "ai_keywords": [
+    "recursive self-improvement",
+    "evaluation feedback",
+    "benchmark subsets",
+    "EvalResearchBench",
+    "autonomous evaluation research",
+    "score concordance",
+    "pairwise agreement",
+    "pilot tests",
+    "graders"
+   ],
+   "ai_summary_model": "thinkingmachines/Inkling-Small",
+   "githubStars": 3,
+   "organization": {
+    "_id": "682621e8ca3801c72863ccd1",
+    "name": "AG2AI",
+    "fullname": "AG2AI",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/647fa485d0cd8be13e662973/2dbbbHGdJS8ryCwWIvxbr.png"
+   }
+  },
+  "publishedAt": "2026-10-15T20:00:00.000Z",
+  "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+  "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research. Given target materials, development references, candidate APIs, and fixed time and API budgets, an agent called the researcher selects or synthesizes tasks, implements graders, and revises them in pilot tests before freezing an executable evaluator for coding, co-work, and reasoning. We study 9 researchers and 13 candidate models and compare each frozen evaluator with 14 target benchmarks on score concordance and pairwise agreement. The best evaluators order about 75\\% of candidate pairs as the targets do, below the 91\\% ceiling set by disagreements among the targets. No researcher leads on every metric, and the best evaluator on development targets is not the best on sealed targets hidden from the researcher. A human-designed sample of public tasks remains a strong baseline, and the evaluator with the lowest recorded execution cost attains the highest pairwise agreement. Agents repair tasks and graders through pilot feedback, yet their evaluators can still truncate answers, exhaust the evaluation budget, or let a few questions dominate a domain score.",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.04184.png",
+  "numComments": 2,
+  "submittedBy": {
+   "_id": "648d2e2e514bf0ce32ba729f",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648d2e2e514bf0ce32ba729f/VPL1rehLxkvixz5oRD6u_.jpeg",
+   "fullname": "Yaolun Zhang",
+   "name": "Mercury7353",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 13,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "682621e8ca3801c72863ccd1",
+   "name": "AG2AI",
+   "fullname": "AG2AI",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/647fa485d0cd8be13e662973/2dbbbHGdJS8ryCwWIvxbr.png"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2610.25835",
+   "authors": [
+    {
+     "_id": "6adbe276121a70fc68345927",
+     "name": "Mohsen Fayyaz",
+     "hidden": false
+    },
+    {
+     "_id": "6adbe276121a70fc68345928",
+     "name": "Ali Modarressi",
+     "hidden": false
+    },
+    {
+     "_id": "6adbe276121a70fc68345929",
+     "name": "Daniel Israel",
+     "hidden": false
+    },
+    {
+     "_id": "6adbe276121a70fc6834592a",
+     "name": "Lucas Bandarkar",
+     "hidden": false
+    },
+    {
+     "_id": "6adbe276121a70fc6834592b",
+     "name": "Nanyun Peng",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-10-19T05:47:58.000Z",
+   "submittedOnDailyAt": "2026-10-23T00:00:00.000Z",
+   "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+   "submittedOnDailyBy": {
+    "_id": "60465ecd4f0c980fda768da7",
+    "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1648301912044-60465ecd4f0c980fda768da7.jpeg",
+    "isPro": false,
+    "fullname": "Mohsen Fayyaz",
+    "user": "mohsenfayyaz",
+    "type": "user",
+    "name": "mohsenfayyaz"
+   },
+   "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find that the number of forward passes per token depends heavily on the task. Text copied or lightly edited from the input is cheap, while open-ended writing is costly. In DiffusionGemma, generating a token for story writing requires more than three times as many forward passes as for grammar correction. Two output properties explain much of this gap: how much of it is new relative to the input, and how rare its words are within the task. The same holds within a single response when thinking is involved. The final answer is cheap when it repeats the model's reasoning trace and costly when it adds something new. In multilingual generation, we find that highly tokenized languages also require more passes per token, adding to the cost they already pay with more tokens. Finally, cost tracks correctness: on the same math problem, wrong answers take more passes per token than correct ones, and weighting candidate answers by decoding speed beats majority voting by up to 4.2 points at no extra cost. Taken together, our results show that diffusion's computational advantage depends on how much of the output is already determined, while its decoding effort offers a practical signal for making inference more efficient and reliable.",
+   "upvotes": 9,
+   "discussionId": "6adbe277121a70fc6834592c",
+   "ai_summary": "Diffusion language models spend more computation on novel, rare, or incorrect outputs, and decoding speed can improve inference efficiency and reliability.",
+   "ai_keywords": [
+    "diffusion language models",
+    "forward passes",
+    "token generation",
+    "open-ended writing",
+    "DiffusionGemma",
+    "multilingual generation",
+    "tokenized languages",
+    "decoding speed",
+    "majority voting"
+   ],
+   "ai_summary_model": "thinkingmachines/Inkling-Small",
+   "organization": {
+    "_id": "60b492a78e9589ce25930346",
+    "name": "uclanlp",
+    "fullname": "UCLA NLP",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1622446751930-5ec0135ded25d76864d553f1.png"
+   }
+  },
+  "publishedAt": "2026-10-19T01:47:58.000Z",
+  "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+  "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find that the number of forward passes per token depends heavily on the task. Text copied or lightly edited from the input is cheap, while open-ended writing is costly. In DiffusionGemma, generating a token for story writing requires more than three times as many forward passes as for grammar correction. Two output properties explain much of this gap: how much of it is new relative to the input, and how rare its words are within the task. The same holds within a single response when thinking is involved. The final answer is cheap when it repeats the model's reasoning trace and costly when it adds something new. In multilingual generation, we find that highly tokenized languages also require more passes per token, adding to the cost they already pay with more tokens. Finally, cost tracks correctness: on the same math problem, wrong answers take more passes per token than correct ones, and weighting candidate answers by decoding speed beats majority voting by up to 4.2 points at no extra cost. Taken together, our results show that diffusion's computational advantage depends on how much of the output is already determined, while its decoding effort offers a practical signal for making inference more efficient and reliable.",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25835.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "60465ecd4f0c980fda768da7",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1648301912044-60465ecd4f0c980fda768da7.jpeg",
+   "fullname": "Mohsen Fayyaz",
+   "name": "mohsenfayyaz",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 13,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "60b492a78e9589ce25930346",
+   "name": "uclanlp",
+   "fullname": "UCLA NLP",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1622446751930-5ec0135ded25d76864d553f1.png"
+  },
+  "isAuthorParticipating": false
+ }
+]
