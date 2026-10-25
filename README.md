@@ -214,10 +214,9 @@ No plano gratuito, o serviço dorme após cerca de 15 minutos sem visitas e o di
 
 Contribuições são bem-vindas. Antes de abrir um pull request:
 
-1. Leia [`AGENTS.md`](AGENTS.md), que traz as regras do projeto e o histórico de decisões.
-2. Para uma fonte nova, confira o endereço com `curl`, salve uma fixture enxuta em `server/fixtures/` e documente a fonte em `docs/fontes.md`.
-3. Rode `pnpm test` e `pnpm check`. Os dois precisam passar.
-4. Mantenha a formatação do `.prettierrc` (largura 80, aspas duplas).
+1. Para uma fonte nova, confira o endereço com `curl`, salve uma fixture enxuta em `server/fixtures/` e documente a fonte em `docs/fontes.md`.
+2. Rode `pnpm test` e `pnpm check`. Os dois precisam passar.
+3. Mantenha a formatação do `.prettierrc` (largura 80, aspas duplas).
 
 ## Créditos
 
